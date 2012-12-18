@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body {
+	color: #343434;
+	font-family: "Myriad Pro", Helvetica, Arial, Sans-serif;
+	font-size: 14px;
+	background: #fff url('../img/bg/bg-site.jpg');
+	background-size: cover;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+.clear:after {
+	content: '';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.container {
+	width: 100%;
+	clear: both;
+}
+.inner {
+	margin: 0 auto;
+	max-width: 1024px;
+	background: #fff;
+}
+
+/* header */
+
+#header {
+	background: #fff center top repeat-x;
+}
+#site-name { display: none;}
+#home-logo {
+	display: block;
+	width: 183px;
+	height: 113px;
+	background: url('../img/logo.jpg') no-repeat;
+}
+#social-icons {
+	float: right;
+}
+#navigation {
+	display: block;
+	float: right;
+	width: 707px;
+	max-height: 58px;
+	background: url('../img/navigation-bg.png') right top;
+}
+#navigation ul,
+#navigation ol,
+#navigation li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* iconos */
+
+.social-icon {
+	display: block;
+	width: 38px;
+	height: 38px;
+	background-size: contain;
+}
+.icon-twitter { background: url('../img/social-icon-tw.png');}
+.icon-facebook { background: url('../img/social-icon-fb.png');}
+.icon-youtube { background: url('../img/social-icon-yt.png');}
