@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeue-webfont.ttf');
+}
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Regular.otf');
+}
 body {
 	color: #343434;
 	font-family: "Myriad Pro", Helvetica, Arial, Sans-serif;
@@ -10,7 +18,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 }
 .clear {clear: both;}
-.clear:after {
+.clearfix:after {
 	content: '';
 	clear: both;
 	display: block;
@@ -21,7 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0 auto;
 	max-width: 1024px;
 }
-#container {
+#main-container {
 	background:#fff;
 	box-shadow: 0 0 50px 0 #000;
 }
@@ -54,16 +62,6 @@ h1,h2,h3,h4,h5,h6 {
 	height: 113px;
 	background: url('../img/logo.jpg') no-repeat;
 }
-#social-icons {
-	float: right;
-}
-#navigation {
-	display: block;
-	float: right;
-	width: 707px;
-	max-height: 58px;
-	background: url('../img/navigation-bg.png') right top;
-}
 
 /* iconos sociales*/
 #social-icons {
@@ -81,20 +79,33 @@ h1,h2,h3,h4,h5,h6 {
 .icon-youtube { background: url('../img/social-icon-yt.png');}
 
 /* menu principal */
+#navigation {
+	display: block;
+	float: right;
+	padding-left: 15px;
+	background: url('../img/navigation-bg.png') right center;
+}
+
 
 #navigation ul,
-#navigation ol,
-#navigation li {
+#navigation ol {
+	display: block;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-.menu-item {}
+.menu {}
+.submenu {
+}
+
+.menu-item {
+	display: inline-block;
+}
 .menu-item > a {
 	display: block;
-	float: left;
+	padding: 18px 0;
 	color: white;
-	font-family: Impact, Helvetica, Arial, Sans-serif;
+	font-family: 'Bebas Neue', Helvetica, Arial, Sans-serif;
 	font-size: 18px;
 	text-decoration: none;
 }
