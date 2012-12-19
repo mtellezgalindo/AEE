@@ -20,10 +20,10 @@ function get_page(){
 	endif;
 }
 
-function site_info(){
-	
+function site_info($request){
+	global $config;
+	if ( array_key_exists($request, $config) ) echo $config[$request];
 }
-
 
 function get_header($name = 'header'){
 	$header_name = ($name == 'header' ) ? 'header.php' : 'header-'.$name.'.php';
