@@ -15,7 +15,7 @@ function set_template(){
 		if ( file_exists('views/default/') ) :
 			define('TEMPLATE', 'views/default/');
 		else:
-			die('<h1>There is not defined template yet.</h1>');
+			die('<h1>Template can not be found.</h1>');
 		endif;
 	endif;
 }
