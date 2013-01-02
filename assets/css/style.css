@@ -109,3 +109,12 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: 18px;
 	text-decoration: none;
 }
+/* Elementos UI especiales */
+.chromeframe {
+	margin:0 auto;
+	padding: .8em 5%;
+	width: 90%;
+	background: beige;
+	text-align: center;
+
+}

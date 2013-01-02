@@ -16,7 +16,8 @@ $config['facebook']		= 'http://facebook.com';
 $config['google+']		= 'http://plus.google.com';
 $config['youtube']		= 'http://youtube.com';
 
-$config['template']		= '';
+// Plantilla del sitio
+$config['template']		= 'aee-theme';
 
 
 ?>
