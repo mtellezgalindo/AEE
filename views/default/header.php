@@ -9,7 +9,7 @@
 	<meta name="author" content="<?php site_info('author'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="author" type="text/plain" href="humans.txt">
-	<link rel="stylesheet" type="text/css" href="assets/css/normalize_v2.0.1.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/libs/normalize_v2.0.1.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!--[if lt IE 9]><script type="text/javascript" src="assets/js/libs/html5.js"></script><![endif]-->
 </head>

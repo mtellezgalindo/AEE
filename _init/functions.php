@@ -5,15 +5,22 @@ if ( !defined('KEY') ) die('<h1>Acceso denegado</h1>');
 // Establece la plantilla configurada. Si no hay ninguna usa una por defecto.
 function set_template(){
 	global $config;
+	$config['css-directory'] = 'assets/css';
+	$config['js-directory'] = 'assets/js';
 	if ( array_key_exists('template', $config) && !empty($config['template']) ) :
-		if ( file_exists('views/'.$config['template'].'/') ) :
-			define('TEMPLATE', 'views/'.$config['template'].'/' );
+		$template_name = $config['template'];
+		if ( file_exists('views/'.$template_name.'/') ) :
+			define('TEMPLATE', 'views/'.$template_name.'/' );
+			$config['css-file'] = 'assets/css/'.$template_name.'.css';
+			$config['js-file'] = 'assets/js/'.$template_name.'.js';
 		else: 
 			die("<h1>Defined Template doesn't exist.</h1>");
 		endif;
 	else:
 		if ( file_exists('views/default/') ) :
 			define('TEMPLATE', 'views/default/');
+			$config['css-file'] = 'assets/css/default-style.css';
+			$config['js-file'] = 'assets/js/default-script.js';
 		else:
 			die('<h1>Template can not be found.</h1>');
 		endif;
@@ -26,7 +33,6 @@ procesar la petición. Si no existe ninguna variable para la página definimos u
 */
 function get_controller(){
 	$pagina = ( empty($_GET['p']) ) ? 'home' : $_GET['p'];
-	settype($pagina, 'string');
 	if ( file_exists('control/'.$pagina.'Control.php') ) :
 		require_once('control/'.$pagina.'Control.php');
 	else:
@@ -79,5 +85,12 @@ function get_sidebar ($name = 'sidebar') {
 	else: echo "<h1>Sidebar required doesn't exist</h1>";
 	endif;
 }
-
+// Comprueba que es te definida la variable y que no esté vacía por GET
+function check_get ($check) {
+	return !empty( $_GET[$check]);
+}
+// Comprueba que es te definida la variable y que no esté vacía por POST
+function check_post ($check) {
+	return !empty( $_POST[$check]);
+}
 ?>

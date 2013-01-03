@@ -2,7 +2,7 @@
 	Developer:Guillermo Dolores
 	Contact: momosolamente [at] gmail.com
 	Twitter: @mkiramu
-	From: Distrito Federal, Mexico City, Mexico
+	From: Distrito Federal, Mexico City, México
 
 
 /* THANKS */
@@ -11,6 +11,6 @@
 	
 /* SITE */
 	Last update:2012/12/17
-	Language: English / Castellano
+	Language: Español / English
 	Doctype: HTML5
 	IDE: Sublime Text, FileZilla, Photoshop

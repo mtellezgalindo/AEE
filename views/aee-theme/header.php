@@ -9,9 +9,10 @@
 	<meta name="author" content="<?php site_info('author'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="author" type="text/plain" href="humans.txt">
-	<link rel="stylesheet" type="text/css" href="assets/css/normalize_v2.0.1.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!--[if lt IE 9]><script type="text/javascript" src="assets/js/libs/html5.js"></script><![endif]-->
+	<link rel="stylesheet" type="text/css" href="<?php site_info('css-directory'); ?>/libs/normalize_v2.0.1.css">
+	<link rel="stylesheet" type="text/css" href="<?php site_info('css-file'); ?>">
+	<!--[if lt IE 9]><script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/html5.js"></script><![endif]-->
+	
 </head>
 <body>
 <div id="black-bar-header"></div>
@@ -19,7 +20,8 @@
 	<!--[if lt IE 8]>
 	<p class="chromeframe">Usas un navegador <strong>antiguo</strong>. Por favor <a href="http://browsehappy.com/" target="_blank">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorar tu experiencia en este sitio.</p>
 	<![endif]-->
-	<header id="header" class="clear clearfix">
+	<header id="header" class="fClear clearfix">
+		<?php if(isset($thanksForYouMessage)) echo $thanksForYouMessage; ?>
 		<h1 id="site-name"><?php site_info('name'); ?></h1>
 		<a id="home-logo"></a>
 		<div id="social-icons" class="">
@@ -27,7 +29,7 @@
 			<a class="social-icon icon-facebook" href="<?php site_info('facebook'); ?>" target="_blank" rel="bookmark"></a>
 			<a class="social-icon icon-youtube" href="<?php site_info('youtube'); ?>" target="_blank" rel="bookmark"></a>
 		</div>
-		<nav id="navigation" class="clear">
+		<nav id="navigation">
 			<ul class="menu clearfix">
 				<li class="menu-item">
 					<a href="#" rel="bookmark" target="">Nosotros</a>
