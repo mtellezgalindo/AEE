@@ -1,4 +1,4 @@
-	<footer id="footer" class="clear">
+	<footer id="footer" class="clear bebas-font">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -13,8 +13,14 @@
 		asuntos legales
 	</div>
 </div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="<?php site_info("js-directory"); ?>/libs/jquery.min.js"><\/script>')</script>
-<script src="<?php site_info('js-file'); ?>"></script>
+<script async src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script defer >window.jQuery || document.write('<script src="<?php site_info("js-directory"); ?>/libs/jquery.min.js"><\/script>')</script>
+<script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/cufon-yui.js"></script>
+<script type="text/javascript" src="<?php site_info('fonts-directory'); ?>/Bebas_Neue_400.font.js"></script>
+<script defer src="<?php site_info('js-file'); ?>"></script>
+<script defer type="text/javascript">
+	Cufon.replace(".bebas-font");
+	Cufon.now();
+</script>
 </body>
 </html>

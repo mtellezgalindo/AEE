@@ -21,26 +21,41 @@
 	<p class="chromeframe">Usas un navegador <strong>antiguo</strong>. Por favor <a href="http://browsehappy.com/" target="_blank">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorar tu experiencia en este sitio.</p>
 	<![endif]-->
 	<header id="header" class="fClear clearfix">
-		<?php if(isset($thanksForYouMessage)) echo $thanksForYouMessage; ?>
 		<h1 id="site-name"><?php site_info('name'); ?></h1>
-		<a id="home-logo"></a>
+		<a id="home-logo" href="<?php site_info('home-url'); ?>"></a>
 		<div id="social-icons" class="">
 			<a class="social-icon icon-twitter" href="<?php site_info('twitter'); ?>" target="_blank" rel="bookmark"></a>
 			<a class="social-icon icon-facebook" href="<?php site_info('facebook'); ?>" target="_blank" rel="bookmark"></a>
 			<a class="social-icon icon-youtube" href="<?php site_info('youtube'); ?>" target="_blank" rel="bookmark"></a>
 		</div>
-		<nav id="navigation">
+		<nav class="navigation">
 			<ul class="menu clearfix">
 				<li class="menu-item">
 					<a href="#" rel="bookmark" target="">Nosotros</a>
-					<!-- <ul class="submenu">
-						<li class="menu-item"><a href="#" rel="bookmark" target="">Nosotros</a></li>
+					<ul class="submenu">
+						<li class="menu-item"><a href="#" rel="bookmark" target="">Quiénes somos</a></li>
 						<li class="menu-item"><a href="#" rel="bookmark" target="">Misión y visión</a></li>
 						<li class="menu-item"><a href="#" rel="bookmark" target="">Valores</a></li>
 						<li class="menu-item"><a href="#" rel="bookmark" target="">Historia de AEE</a></li>
-					</ul> -->
+					</ul>
 				</li>
-				<li class="menu-item"><a href="#" rel="bookmark" target="">Servicios</a></li>
+				<li class="menu-item">
+					<a href="#" rel="bookmark" target="">Servicios</a>
+					<ul class="submenu">
+						<li class="menu-item"><a href="#" rel="bookmark" target="">Quiénes somos</a></li>
+						<li class="menu-item"><a href="#" rel="bookmark" target="">Misión y visión</a></li>
+						<li class="menu-item"><a href="#" rel="bookmark" target="">Valores</a></li>
+						<li class="menu-item">
+							<a href="#" rel="bookmark" target="">Historia de AEE</a>
+							<ul class="submenu">
+								<li class="menu-item"><a href="#" rel="bookmark" target="">Quiénes somos</a></li>
+								<li class="menu-item"><a href="#" rel="bookmark" target="">Misión y visión</a></li>
+								<li class="menu-item"><a href="#" rel="bookmark" target="">Valores</a></li>
+								<li class="menu-item"><a href="#" rel="bookmark" target="">Historia de AEE</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
 				<li class="menu-item"><a href="#" rel="bookmark" target="">Preiódicos</a></li>
 				<li class="menu-item"><a href="#" rel="bookmark" target="">Media Kit 2012</a></li>
 				<li class="menu-item"><a href="#" rel="bookmark" target="">Clientes</a></li>

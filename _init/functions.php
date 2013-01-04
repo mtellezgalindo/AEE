@@ -5,8 +5,11 @@ if ( !defined('KEY') ) die('<h1>Acceso denegado</h1>');
 // Establece la plantilla configurada. Si no hay ninguna usa una por defecto.
 function set_template(){
 	global $config;
-	$config['css-directory'] = 'assets/css';
-	$config['js-directory'] = 'assets/js';
+	$config['css-directory']	= 'assets/css';
+	$config['img-directory']	= 'assets/img';
+	$config['fonts-directory']	= 'assets/fonts';
+	$config['js-directory']		= 'assets/js';
+	
 	if ( array_key_exists('template', $config) && !empty($config['template']) ) :
 		$template_name = $config['template'];
 		if ( file_exists('views/'.$template_name.'/') ) :

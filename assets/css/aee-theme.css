@@ -14,9 +14,8 @@ body {
 	background: #fff url('../img/bg/bg-site.jpg');
 	background-size: cover;
 }
-h1,h2,h3,h4,h5,h6 {
-	margin: 0;
-}
+h1,h2,h3,h4,h5,h6 {margin: 0;}
+
 /* Clases para control de estrucutra y flujo */
 .clearfix:after {
 	content: '';
@@ -34,17 +33,17 @@ h1,h2,h3,h4,h5,h6 {
 .aJustify	{text-align: justify;}
 img.aLeft	{float: left; margin: 0 1em 1em 0;}
 img.aRight	{float: right; margin: 0 0 1em 1em;}
-img.aCenter	{clear: both; display: block; margin: .5em auto;}
+img.aCenter	{clear: both; display: block; margin: 1em auto;}
 
-.container {
-	margin: 0 auto;
-	max-width: 1024px;
-}
 
 /*#########################################################################*/
 				/* ESTRUCTURA GENERAL ( solamente 'box model') */
 /*#########################################################################*/
 
+.container {
+	margin: 0 auto;
+	max-width: 1024px;
+}
 
 #main-container {
 	background: #fff;
@@ -63,7 +62,7 @@ img.aCenter	{clear: both; display: block; margin: .5em auto;}
 
 
 
-/* barras oscuras, sin semántica en el sitio */
+/* Elementos UI, sin semántica en el sitio */
 #black-bar-header {
 	margin: 0 0 18px;
 	padding:17px 0;
@@ -75,6 +74,14 @@ img.aCenter	{clear: both; display: block; margin: .5em auto;}
 	min-height: 1em;
 	background:#000;
 	color: white;
+}
+.chromeframe {
+	margin:0 auto;
+	padding: .8em 5%;
+	width: 90%;
+	background: #E9BE37;
+	text-align: center;
+
 }
 /*#########################################################################*/
 				/* header */
@@ -109,48 +116,68 @@ img.aCenter	{clear: both; display: block; margin: .5em auto;}
 .icon-facebook { background: url('../img/social-icon-fb.png');}
 .icon-youtube { background: url('../img/social-icon-yt.png');}
 
-/* menu principal */
-#navigation {
+
+/********************** menu principal **************************/
+.navigation {
 	display: block;
 	clear: right;
 	float: right;
 	margin: 20px 0 10px 0;
-	padding-left: 22px;
-	background: url('../img/navigation-bg.png') left center;
+	padding-left: 28px;
+	background: url('../img/navigation-bg.png') center left  no-repeat;
 }
-
-
-#navigation ul,
-#navigation ol {
+.navigation .menu,
+.navigation .submenu,
+.navigation .menu-item {
 	display: block;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-.menu {}
-.submenu {
+.menu {
+	background: url('../img/navigation-bg-repeat-x.png') left center repeat-x;
 }
-
+.submenu {
+	display: none;
+	position: absolute;
+	top: 0;
+	left:100%;
+	background: #000;
+	z-index: 1;
+}
 .menu-item {
-	display: inline-block;
+	position: relative;
 }
 .menu-item > a {
 	display: block;
-	padding: 18px 0;
 	color: white;
-	font-family: 'Bebas Neue', Helvetica, Arial, Sans-serif;
-	font-size: 18px;
+	font-size: 1em;
+	font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+	font-weight: normal;
 	text-decoration: none;
 }
-/* Elementos UI especiales */
-.chromeframe {
-	margin:0 auto;
-	padding: .8em 5%;
-	width: 90%;
-	background: beige;
-	text-align: center;
-
+/* Elementos de menu de primer nivel */
+.menu > .menu-item {
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0;
+	padding: 18px 18px 14px;
 }
+.menu > .menu-item > a {
+	border-bottom: 2px solid transparent; 
+	font-size: 18px;
+	font-family: 'Bebas Neue', Impact, Helvetica, Arial, Sans-serif;
+}
+.menu > .menu-item > a:hover { border-bottom: 2px solid #fff; }
+
+/* Oculta subniveles */
+.menu-item .submenu { display: block;}
+.menu-item:hover .submenu {	display: block; }
+
+
+
+
 /*#########################################################################*/
 				/* Contenido */
 /*#########################################################################*/
@@ -253,8 +280,9 @@ img.aCenter	{clear: both; display: block; margin: .5em auto;}
 .libro_portada {
 	margin: 0 1.5em 1em 0 !important;
 	width: 100%;
-	max-width: 150px;
+	max-width: 155px;
 	height: auto;
+	max-height: 205px;
 	box-shadow: 5px 5px 15px -5px #000;
 }
 .libro-titulo {
@@ -273,15 +301,47 @@ img.aCenter	{clear: both; display: block; margin: .5em auto;}
 }
 .btn {
 	display: block;
-	background: red;
+	border: 1px solid #bbbbbb;
+	padding: 4px 14px;
+	background-color: #f5f5f5;
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
 	border-radius: 4px;
-	box-shadow: 0 5px 5px -5px #000;
-	color: white;
-	padding: .5em .8em;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	color: #333;
+	cursor: pointer;
+	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
+	vertical-align: middle;
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
 }
+.btn-red {
+	background-image: -webkit-linear-gradient(top, #de0003, #b40103);
+	background-image: -o-linear-gradient(top, #de0003, #b40103);
+	background-image: linear-gradient(to bottom, #de0003, #b40103);
+	background-image: -moz-linear-gradient(top, #de0003, #b40103);
+	color: white;
 
+}
+.btn-descargar-pdf {
+	display: inline-block;
+	width: 105px;
+	height: 35px;
+	background: url('../img/btn-descargar-pdf.png') center center no-repeat;
+	background-size: contain;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 12px;
+	text-indent: -99999px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.btn-descargar-pdf:hover {	box-shadow:inset 0 -1px 5px 0px rgba(0, 0, 0, .3); }
+.btn-descargar-pdf:active {	box-shadow:inset 0px 1px 8px 0px #350000; }
 
 /*#########################################################################*/
 				/* footer - pie de página */
