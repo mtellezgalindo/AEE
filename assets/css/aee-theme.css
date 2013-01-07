@@ -140,8 +140,8 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 .submenu {
 	display: none;
 	position: absolute;
-	top: 0;
-	left:100%;
+	top: 100%;
+	left:15%;
 	background: #000;
 	z-index: 1;
 }
@@ -172,7 +172,7 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 .menu > .menu-item > a:hover { border-bottom: 2px solid #fff; }
 
 /* Oculta subniveles */
-.menu-item .submenu { display: block;}
+.menu-item .submenu { display: none;}
 .menu-item:hover .submenu {	display: block; }
 
 
@@ -198,7 +198,11 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 .section-title-dropdown {
 	background: #f5f5f5 url('../img/arrows-down-mini.png') 95% center no-repeat;
 }
-
+.section-subtitle {
+	margin: .8em 0;
+	font-size: 150%;
+	font-weight: normal;
+}
 
 #slider {
 	padding: 1.5em;
@@ -257,14 +261,11 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 	height: auto;
 }
 #content-inner {
-	padding: 0 20px 20px;
+	margin: 10px auto;
+	padding: 20px 20px;
 }
 
-.current-video-title {
-	margin: .8em 0;
-	font-size: 150%;
-	font-weight: normal;
-}
+
 /*#########################################################################*/
 				/* SIDEBAR - LIBROS */
 /*#########################################################################*/

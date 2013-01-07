@@ -36,11 +36,11 @@ procesar la petición. Si no existe ninguna variable para la página definimos u
 */
 function get_controller(){
 	$pagina = ( empty($_GET['p']) ) ? 'home' : $_GET['p'];
-	if ( file_exists('control/'.$pagina.'Control.php') ) :
-		require_once('control/'.$pagina.'Control.php');
+	if ( file_exists('control/'.$pagina.'-Control.php') ) :
+		require_once('control/'.$pagina.'-Control.php');
 	else:
-		if ( file_exists('control/errorControl.php') ) :
-			require_once('control/errorControl.php');
+		if ( file_exists('control/error-Control.php') ) :
+			require_once('control/error-Control.php');
 		else:	die('<h1>Service Unavailable</h1>');
 		endif;
 	endif;

@@ -22,7 +22,7 @@
 				<header>
 					<hgroup>
 						<h2 class="section-title">Videos</h2>
-						<h3 class="current-video-title">Duis aute irure dolor in reprehenderit in voluptate velit esse
+						<h3 class="section-subtitle">Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur.</h3>
 					</hgroup>
 				</header>

@@ -31,7 +31,7 @@
 		<nav class="navigation">
 			<ul class="menu clearfix">
 				<li class="menu-item">
-					<a href="#" rel="bookmark" target="">Nosotros</a>
+					<a href="?p=nosotros" rel="bookmark" target="">Nosotros</a>
 					<ul class="submenu">
 						<li class="menu-item"><a href="#" rel="bookmark" target="">Quiénes somos</a></li>
 						<li class="menu-item"><a href="#" rel="bookmark" target="">Misión y visión</a></li>
@@ -40,7 +40,7 @@
 					</ul>
 				</li>
 				<li class="menu-item">
-					<a href="#" rel="bookmark" target="">Servicios</a>
+					<a href="?p=servicios" rel="bookmark" target="">Servicios</a>
 					<ul class="submenu">
 						<li class="menu-item"><a href="#" rel="bookmark" target="">Quiénes somos</a></li>
 						<li class="menu-item"><a href="#" rel="bookmark" target="">Misión y visión</a></li>
@@ -56,11 +56,11 @@
 						</li>
 					</ul>
 				</li>
-				<li class="menu-item"><a href="#" rel="bookmark" target="">Preiódicos</a></li>
-				<li class="menu-item"><a href="#" rel="bookmark" target="">Media Kit 2012</a></li>
-				<li class="menu-item"><a href="#" rel="bookmark" target="">Clientes</a></li>
-				<li class="menu-item"><a href="#" rel="bookmark" target="">Directorio</a></li>
-				<li class="menu-item"><a href="#" rel="bookmark" target="">Contacto</a></li>
+				<li class="menu-item"><a href="?p=periodicos" rel="bookmark" target="">Periódicos</a></li>
+				<li class="menu-item"><a href="?p=media-kit-2012" rel="bookmark" target="">Media Kit 2012</a></li>
+				<li class="menu-item"><a href="?p=clientes" rel="bookmark" target="">Clientes</a></li>
+				<li class="menu-item"><a href="?p=directorio" rel="bookmark" target="">Directorio</a></li>
+				<li class="menu-item"><a href="?p=contacto" rel="bookmark" target="">Contacto</a></li>
 			</ul>
 		</nav>
 	</header>
