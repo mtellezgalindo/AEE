@@ -101,10 +101,14 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 }
 
 /* iconos sociales*/
-#social-icons {
+#header-social-icons {
 	display: block;
 	float: right;
 	margin: 0 25px 0 0;
+}
+.social-icons {
+	display: inline-block;
+	margin: 0;
 }
 .social-icon {
 	display: inline-block;
@@ -205,6 +209,8 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 }
 
 #slider {
+	display: block;
+	clear:both;
 	padding: 1.5em;
 	background: #fb7737;
 }
@@ -353,4 +359,19 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 	background: #9f0204;
 	color: #fff;
 }
-
+.footer-form-container {
+	display: block;
+	float: left;
+	padding: 1%;
+	width: 100%;
+	max-width: 31.33%;
+	/*outline: 1px solid yellow;*/
+}
+.footer-form {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 220px;
+}
+#footer-social-icons {
+	margin: 1em 1em 0 0;
+}

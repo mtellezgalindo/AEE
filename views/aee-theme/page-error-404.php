@@ -4,14 +4,11 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Nosotros</h2>
-						<h3 class="section-subtitle">Lorem Ipsum</h3>
+						<h2 class="section-title">Sección no encontrada</h2>
+						<h3 class="section-subtitle">Lo sentimos, no encontramos lo que buscabas.</h3>
 					</hgroup>
 				</header>
 				<div>
-					<p>
-						<img class="aLeft" src="assets/img/nosotros-featured.jpg">
-					</p>
 					<p>Somos una asociación civil constituida en mayo de 1934 por diferentes periódicos establecidos en nuestro país con el propósito de tener
 						una representación en el sector editorial, dedicada a ofrecer servicios que apoyen al crecimiento de cada socio tanto operativa como
 						comercialmente.</p>

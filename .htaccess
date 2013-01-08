@@ -1,3 +1,4 @@
 #Options -Indexes
 #IndexIgnore *
-AddType text/x-component .htc
+RewriteEngine on
+#RewriteRule ^([a-zA-Z0-9\-_]+)/?([a-zA-Z0-9\-_]*)$ ?p=$1&sec=$2 [L]

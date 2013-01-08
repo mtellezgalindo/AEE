@@ -23,7 +23,7 @@
 	<header id="header" class="fClear clearfix">
 		<h1 id="site-name"><?php site_info('name'); ?></h1>
 		<a id="home-logo" href="<?php site_info('home-url'); ?>"></a>
-		<div id="social-icons" class="">
+		<div id="header-social-icons" class="social-icons">
 			<a class="social-icon icon-twitter" href="<?php site_info('twitter'); ?>" target="_blank" rel="bookmark"></a>
 			<a class="social-icon icon-facebook" href="<?php site_info('facebook'); ?>" target="_blank" rel="bookmark"></a>
 			<a class="social-icon icon-youtube" href="<?php site_info('youtube'); ?>" target="_blank" rel="bookmark"></a>
@@ -63,5 +63,7 @@
 				<li class="menu-item"><a href="?p=contacto" rel="bookmark" target="">Contacto</a></li>
 			</ul>
 		</nav>
+		<?php get_widget('slider'); ?>
+		<!-- / slider -->
 	</header>
 	<!-- /#header -->

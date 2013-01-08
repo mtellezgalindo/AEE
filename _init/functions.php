@@ -82,12 +82,23 @@ function get_content($name = 'page'){
 
 // Incluye el sidebar solicitado en base a la plantilla configurada
 function get_sidebar ($name = 'sidebar') {
-	$sidebar_name = ($name = 'sidebar') ? 'sidebar.php' : 'sidebar-'.$name.'.php';
+	$sidebar_name = ($name == 'sidebar') ? 'sidebar.php' : 'sidebar-'.$name.'.php';
 	if ( file_exists(TEMPLATE.$sidebar_name) ) :
 		include( TEMPLATE.$sidebar_name);
 	else: echo "<h1>Sidebar required doesn't exist</h1>";
 	endif;
 }
+// Incluye el sidebar solicitado en base a la plantilla configurada
+function get_widget ($name = 'widget') {
+	$widget_name = ($name == 'widget') ? 'widget.php' : 'widget-'.$name.'.php';
+	if ( file_exists(TEMPLATE.$widget_name) ) :
+		include( TEMPLATE.$widget_name);
+	else:
+		echo "<h1>Widget required doesn't exist</h1>";
+	endif;
+}
+
+
 // Comprueba que es te definida la variable y que no esté vacía por GET
 function check_get ($check) {
 	return !empty( $_GET[$check]);

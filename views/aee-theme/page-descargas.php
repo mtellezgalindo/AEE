@@ -4,8 +4,8 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Nosotros</h2>
-						<h3 class="section-subtitle">Lorem Ipsum</h3>
+						<h2 class="section-title">Descargas</h2>
+						<h3 class="section-subtitle">Descargas disponibles</h3>
 					</hgroup>
 				</header>
 				<div>

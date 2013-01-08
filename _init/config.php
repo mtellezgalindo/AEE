@@ -2,7 +2,7 @@
 if ( !defined('KEY') ) die('<h1>Acceso denegado</h1>');
 
 // Configuración básica
-$config['home-url']		= 'http://delfos/aee';
+$config['home-url']		= 'http://lolo/aee';
 $config['title']		= 'AEE';
 $config['name']			= 'Asociación de Editores de los Estados';
 $config['keywords']		= 'Periódicos, estados, noticias, asociaciones, provincia, México';
