@@ -30,40 +30,53 @@
 		</div>
 		<nav class="navigation">
 			<ul class="menu clearfix">
-				<li class="menu-item">
-					<a href="?p=nosotros" rel="bookmark" target="">Nosotros</a>
+				<li class="menu-item"><a href="?p=nosotros" rel="bookmark" >Nosotros</a>
 					<ul class="submenu">
-						<li class="menu-item"><a href="#" rel="bookmark" target="">Quiénes somos</a></li>
-						<li class="menu-item"><a href="#" rel="bookmark" target="">Misión y visión</a></li>
-						<li class="menu-item"><a href="#" rel="bookmark" target="">Valores</a></li>
-						<li class="menu-item"><a href="#" rel="bookmark" target="">Historia de AEE</a></li>
+						<li class="menu-item"><a href="?p=nosotros&s=quienes-somos" rel="bookmark" >Quiénes somos</a></li>
+						<li class="menu-item"><a href="?p=nosotros&s=mision-vision" rel="bookmark" >Misión y visión</a></li>
+						<li class="menu-item"><a href="?p=nosotros&s=valores" rel="bookmark" >Valores</a></li>
+						<li class="menu-item"><a href="?p=nosotros&s=historia-aee" rel="bookmark" >Historia de la AEE</a></li>
 					</ul>
 				</li>
-				<li class="menu-item">
-					<a href="?p=servicios" rel="bookmark" target="">Servicios</a>
+				<li class="menu-item"><a href="?p=servicios" rel="bookmark" >Servicios</a>
 					<ul class="submenu">
-						<li class="menu-item"><a href="#" rel="bookmark" target="">Quiénes somos</a></li>
-						<li class="menu-item"><a href="#" rel="bookmark" target="">Misión y visión</a></li>
-						<li class="menu-item"><a href="#" rel="bookmark" target="">Valores</a></li>
-						<li class="menu-item">
-							<a href="#" rel="bookmark" target="">Historia de AEE</a>
-							<ul class="submenu">
-								<li class="menu-item"><a href="#" rel="bookmark" target="">Quiénes somos</a></li>
-								<li class="menu-item"><a href="#" rel="bookmark" target="">Misión y visión</a></li>
-								<li class="menu-item"><a href="#" rel="bookmark" target="">Valores</a></li>
-								<li class="menu-item"><a href="#" rel="bookmark" target="">Historia de AEE</a></li>
-							</ul>
-						</li>
+						<li class="menu-item"><a href="?p=servicios&s=infraestructura" rel="bookmark" >Infraestructura</a></li>
+						<li class="menu-item"><a href="?p=servicios&s=videos" rel="bookmark" >Videos</a></li>
 					</ul>
 				</li>
-				<li class="menu-item"><a href="?p=periodicos" rel="bookmark" target="">Periódicos</a></li>
-				<li class="menu-item"><a href="?p=media-kit-2012" rel="bookmark" target="">Media Kit 2012</a></li>
-				<li class="menu-item"><a href="?p=clientes" rel="bookmark" target="">Clientes</a></li>
-				<li class="menu-item"><a href="?p=directorio" rel="bookmark" target="">Directorio</a></li>
-				<li class="menu-item"><a href="?p=contacto" rel="bookmark" target="">Contacto</a></li>
+				<li class="menu-item"><a href="?p=periodicos" rel="bookmark" >Periódicos</a>
+					<ul class="submenu">
+						<li class="menu-item"><a href="?p=periodicos&s=el-siglo-de-torreon" rel="bookmark" >El Siglo de Torreón</a></li>
+						<li class="menu-item"><a href="?p=periodicos&s=diario-de-yucatan" rel="bookmark" >Diario de Yucatán</a></li>
+						<li class="menu-item"><a href="?p=periodicos&s=el-imparcial" rel="bookmark" >El Imparcial</a></li>
+						<li class="menu-item"><a href="?p=periodicos&s=la-cronica" rel="bookmark" >La Crónica</a></li>
+						<li class="menu-item"><a href="?p=periodicos&s=el-siglo-de-durango" rel="bookmark" >El Siglo de Durango</a></li>
+						<li class="menu-item"><a href="?p=periodicos&s=la-frontera" rel="bookmark" >La Frontera</a></li>
+						<li class="menu-item"><a href="?p=periodicos&s=la-i" rel="bookmark" >La I</a></li>
+						<li class="menu-item"><a href="?p=periodicos&s=al-chile" rel="bookmark" >Al Chile</a></li>
+						<li class="menu-item"><a href="?p=periodicos&s=internet" rel="bookmark" >Internet</a></li>
+						<li class="menu-item"><a href="?p=periodicos&s=vallas" rel="bookmark" >Vallas</a></li>
+						<li class="menu-item"><a href="?p=periodicos&s=publicidad-movil" rel="bookmark" >Publicidad Móvil</a></li>
+					</ul>
+				</li>
+				<li class="menu-item"><a href="?p=media-kit-2012" rel="bookmark" >Media Kit 2012</a>
+					<ul class="submenu">
+						<li class="menu-item"><a href="?p=media-kit-2012&s=el-siglo-de-torreon" rel="bookmark" >El Siglo de Torreón</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012&s=diario-de-yucatan" rel="bookmark" >Diario de Yucatán</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012&s=el-imparcial" rel="bookmark" >El Imparcial</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012&s=la-cronica" rel="bookmark" >La Crónica</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012&s=el-siglo-de-durango" rel="bookmark" >El Siglo de Durango</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012&s=la-frontera" rel="bookmark" >La Frontera</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012&s=la-i" rel="bookmark" >La I</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012&s=al-chile" rel="bookmark" >Al Chile</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012&s=internet" rel="bookmark" >Suplementos y revistas</a></li>
+					</ul>
+				</li>
+				<li class="menu-item"><a href="?p=clientes" rel="bookmark" >Clientes</a></li>
+				<li class="menu-item"><a href="?p=directorio" rel="bookmark" >Directorio</a></li>
+				<li class="menu-item"><a href="?p=contacto" rel="bookmark" >Contacto</a></li>
 			</ul>
 		</nav>
 		<?php get_widget('slider'); ?>
-		<!-- / slider -->
 	</header>
 	<!-- /#header -->

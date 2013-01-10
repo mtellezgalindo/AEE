@@ -11,7 +11,7 @@ body {
 	color: #343434;
 	font-family: "Myriad Pro", Helvetica, Arial, Sans-serif;
 	font-size: 14px;
-	background: #fff url('../img/bg/bg-site.jpg');
+	background: #f8f8f8 url('../img/bg/bg-site.jpg');
 	background-size: cover;
 }
 h1,h2,h3,h4,h5,h6 {margin: 0;}
@@ -46,7 +46,7 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 }
 
 #main-container {
-	background: #fff;
+	background: #f8f8f8;
 	box-shadow: 0 0 50px 0 #000;
 }
 #main {
@@ -175,6 +175,24 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 }
 .menu > .menu-item > a:hover { border-bottom: 2px solid #fff; }
 
+/* Segundo nivel */
+.menu-item > .submenu {
+	padding: .8em;
+	width: 200%;
+	max-width: 150%;
+	box-shadow: 5px 5px 5px -5px #000;
+}
+.submenu > .menu-item > a {
+	border-bottom: 1px solid #acacac;
+	padding: .5em 0;
+}
+.submenu > .menu-item > a:hover {
+	color: #ec4800;
+}
+.submenu > .menu-item:last-child > a {
+	border-bottom: none;
+}
+
 /* Oculta subniveles */
 .menu-item .submenu { display: none;}
 .menu-item:hover .submenu {	display: block; }
@@ -207,7 +225,11 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 	font-size: 150%;
 	font-weight: normal;
 }
-
+.lead {
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 30px;
+}
 #slider {
 	display: block;
 	clear:both;

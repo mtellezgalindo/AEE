@@ -98,7 +98,6 @@ function get_widget ($name = 'widget') {
 	endif;
 }
 
-
 // Comprueba que es te definida la variable y que no esté vacía por GET
 function check_get ($check) {
 	return !empty( $_GET[$check]);
