@@ -11,72 +11,71 @@
 	<link rel="author" type="text/plain" href="humans.txt">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-directory'); ?>/libs/normalize_v2.0.1.css">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-file'); ?>">
-	<!--[if lt IE 9]><script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/html5.js"></script><![endif]-->
-	
+	<!--[if lt IE 9]><script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/html5.js"></script><![endif]-->	
 </head>
 <body>
+<!--[if lt IE 8]>
+<p class="chromeframe" style="position:fixed; top 0; left:0;">Usas un navegador <strong>antiguo</strong>. Por favor <a href="http://browsehappy.com/" target="_blank">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorar tu experiencia en este sitio.</p>
+<![endif]-->
 <div id="black-bar-header"></div>
 <div id="main-container" class="container">
-	<!--[if lt IE 8]>
-	<p class="chromeframe">Usas un navegador <strong>antiguo</strong>. Por favor <a href="http://browsehappy.com/" target="_blank">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorar tu experiencia en este sitio.</p>
-	<![endif]-->
 	<header id="header" class="fClear clearfix">
 		<h1 id="site-name"><?php site_info('name'); ?></h1>
 		<a id="home-logo" href="<?php site_info('home-url'); ?>"></a>
 		<div id="header-social-icons" class="social-icons">
-			<a class="social-icon icon-twitter" href="<?php site_info('twitter'); ?>" target="_blank" rel="bookmark"></a>
-			<a class="social-icon icon-facebook" href="<?php site_info('facebook'); ?>" target="_blank" rel="bookmark"></a>
-			<a class="social-icon icon-youtube" href="<?php site_info('youtube'); ?>" target="_blank" rel="bookmark"></a>
+			<a class="social-icon icon-twitter" href="<?php site_info('twitter'); ?>" target="_blank" ></a>
+			<a class="social-icon icon-facebook" href="<?php site_info('facebook'); ?>" target="_blank" ></a>
+			<a class="social-icon icon-youtube" href="<?php site_info('youtube'); ?>" target="_blank" ></a>
 		</div>
 		<nav class="navigation">
 			<ul class="menu clearfix">
-				<li class="menu-item"><a href="?p=nosotros" rel="bookmark" >Nosotros</a>
+				<li class="menu-item"><a href="?=quienes-somos"  >Nosotros</a>
 					<ul class="submenu">
-						<li class="menu-item"><a href="?p=nosotros&s=quienes-somos" rel="bookmark" >Quiénes somos</a></li>
-						<li class="menu-item"><a href="?p=nosotros&s=mision-vision" rel="bookmark" >Misión y visión</a></li>
-						<li class="menu-item"><a href="?p=nosotros&s=valores" rel="bookmark" >Valores</a></li>
-						<li class="menu-item"><a href="?p=nosotros&s=historia-aee" rel="bookmark" >Historia de la AEE</a></li>
+						<li class="menu-item"><a href="?p=quienes-somos"  >Quiénes somos</a></li>
+						<li class="menu-item"><a href="?p=mision-vision"  >Misión y visión</a></li>
+						<li class="menu-item"><a href="?p=valores"  >Valores</a></li>
+						<li class="menu-item"><a href="?p=historia-aee"  >Historia de la AEE</a></li>
 					</ul>
 				</li>
-				<li class="menu-item"><a href="?p=servicios" rel="bookmark" >Servicios</a>
+				<li class="menu-item"><a href="?p=servicios"  >Servicios</a>
 					<ul class="submenu">
-						<li class="menu-item"><a href="?p=servicios&s=infraestructura" rel="bookmark" >Infraestructura</a></li>
-						<li class="menu-item"><a href="?p=servicios&s=videos" rel="bookmark" >Videos</a></li>
+						<li class="menu-item"><a href="?p=infraestructura"  >Infraestructura</a></li>
+						<li class="menu-item"><a href="?p=videos"  >Videos</a></li>
 					</ul>
 				</li>
-				<li class="menu-item"><a href="?p=periodicos" rel="bookmark" >Periódicos</a>
+				<li class="menu-item"><a href="?p=periodicos"  >Periódicos</a>
 					<ul class="submenu">
-						<li class="menu-item"><a href="?p=periodicos&s=el-siglo-de-torreon" rel="bookmark" >El Siglo de Torreón</a></li>
-						<li class="menu-item"><a href="?p=periodicos&s=diario-de-yucatan" rel="bookmark" >Diario de Yucatán</a></li>
-						<li class="menu-item"><a href="?p=periodicos&s=el-imparcial" rel="bookmark" >El Imparcial</a></li>
-						<li class="menu-item"><a href="?p=periodicos&s=la-cronica" rel="bookmark" >La Crónica</a></li>
-						<li class="menu-item"><a href="?p=periodicos&s=el-siglo-de-durango" rel="bookmark" >El Siglo de Durango</a></li>
-						<li class="menu-item"><a href="?p=periodicos&s=la-frontera" rel="bookmark" >La Frontera</a></li>
-						<li class="menu-item"><a href="?p=periodicos&s=la-i" rel="bookmark" >La I</a></li>
-						<li class="menu-item"><a href="?p=periodicos&s=al-chile" rel="bookmark" >Al Chile</a></li>
-						<li class="menu-item"><a href="?p=periodicos&s=internet" rel="bookmark" >Internet</a></li>
-						<li class="menu-item"><a href="?p=periodicos&s=vallas" rel="bookmark" >Vallas</a></li>
-						<li class="menu-item"><a href="?p=periodicos&s=publicidad-movil" rel="bookmark" >Publicidad Móvil</a></li>
+						<li class="menu-item"><a href="?p=periodico-el-siglo-de-torreon"  >El Siglo de Torreón</a></li>
+						<li class="menu-item"><a href="?p=periodico-diario-de-yucatan"  >Diario de Yucatán</a></li>
+						<li class="menu-item"><a href="?p=periodico-el-imparcial"  >El Imparcial</a></li>
+						<li class="menu-item"><a href="?p=periodico-la-cronica"  >La Crónica</a></li>
+						<li class="menu-item"><a href="?p=periodico-el-siglo-de-durango"  >El Siglo de Durango</a></li>
+						<li class="menu-item"><a href="?p=periodico-la-frontera"  >La Frontera</a></li>
+						<li class="menu-item"><a href="?p=periodico-la-i"  >La I</a></li>
+						<li class="menu-item"><a href="?p=periodico-al-chile"  >Al Chile</a></li>
+						<li class="menu-item"><a href="?p=periodico-internet"  >Internet</a></li>
+						<li class="menu-item"><a href="?p=periodico-vallas"  >Vallas</a></li>
+						<li class="menu-item"><a href="?p=periodico-publicidad-movil"  >Publicidad Móvil</a></li>
 					</ul>
 				</li>
-				<li class="menu-item"><a href="?p=media-kit-2012" rel="bookmark" >Media Kit 2012</a>
+				<li class="menu-item"><a href="?p=media-kit-2012"  >Media Kit 2012</a>
 					<ul class="submenu">
-						<li class="menu-item"><a href="?p=media-kit-2012&s=el-siglo-de-torreon" rel="bookmark" >El Siglo de Torreón</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012&s=diario-de-yucatan" rel="bookmark" >Diario de Yucatán</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012&s=el-imparcial" rel="bookmark" >El Imparcial</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012&s=la-cronica" rel="bookmark" >La Crónica</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012&s=el-siglo-de-durango" rel="bookmark" >El Siglo de Durango</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012&s=la-frontera" rel="bookmark" >La Frontera</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012&s=la-i" rel="bookmark" >La I</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012&s=al-chile" rel="bookmark" >Al Chile</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012&s=internet" rel="bookmark" >Suplementos y revistas</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012-el-siglo-de-torreon"  >El Siglo de Torreón</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012-diario-de-yucatan"  >Diario de Yucatán</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012-el-imparcial"  >El Imparcial</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012-la-cronica"  >La Crónica</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012-el-siglo-de-durango"  >El Siglo de Durango</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012-la-frontera"  >La Frontera</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012-la-i"  >La I</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012-al-chile"  >Al Chile</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2012-internet"  >Suplementos y revistas</a></li>
 					</ul>
 				</li>
-				<li class="menu-item"><a href="?p=clientes" rel="bookmark" >Clientes</a></li>
-				<li class="menu-item"><a href="?p=directorio" rel="bookmark" >Directorio</a></li>
-				<li class="menu-item"><a href="?p=contacto" rel="bookmark" >Contacto</a></li>
+				<li class="menu-item"><a href="?p=clientes"  >Clientes</a></li>
+				<li class="menu-item"><a href="?p=directorio"  >Directorio</a></li>
+				<li class="menu-item"><a href="?p=contacto"  >Contacto</a></li>
 			</ul>
 		</nav>
-		<?php get_widget('slider'); ?>
+		<?php // get_widget('slider'); ?>
 	</header>
 	<!-- /#header -->

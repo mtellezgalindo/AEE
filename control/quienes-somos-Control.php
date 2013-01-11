@@ -3,6 +3,6 @@ if ( !defined('KEY') ) die('<h1>Acceso denegado</h1>');
 //=============================================================
 
 get_header();
-get_content('clientes');
+get_content('quienes-somos');
 get_footer();
 ?>

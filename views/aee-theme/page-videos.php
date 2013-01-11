@@ -4,11 +4,13 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Sección no encontrada</h2>
-						<h3 class="section-subtitle">Lo sentimos, no encontramos lo que buscabas.</h3>
+						<h2 class="section-title">Videos</h2>
+						<h3 class="section-subtitle">Asociación de Editores de los Estados</h3>
 					</hgroup>
 				</header>
 				<div>
+					<!-- <p><img class="aRight" src="assets/img/nosotros-featured.jpg"></p> -->
+					<p class="lead">Videos</p>
 				</div>
 			</article>
 		</section>

@@ -4,7 +4,7 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Misión y Visión</h2>
+						<h2 class="section-title">Misión y Vision</h2>
 						<h3 class="section-subtitle">Asociación de Editores de los Estados</h3>
 					</hgroup>
 				</header>
