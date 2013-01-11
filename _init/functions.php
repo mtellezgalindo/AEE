@@ -106,5 +106,14 @@ function check_get ($check) {
 	endif;
 	return $url_var;
 }
+function download_file ($file) {
+	$basefile = basename($file);
+	header( "Content-Type: application/octet-stream");
+	header( "Content-Length: ".filesize($file) );
+	header( "Content-Disposition:attachment;filename=" .$basefile."");
+	readfile($file);
+}
+
+
 
 ?>
