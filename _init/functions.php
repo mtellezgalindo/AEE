@@ -100,10 +100,11 @@ function get_widget ($name = 'widget') {
 
 // Comprueba que es te definida la variable y que no esté vacía por GET
 function check_get ($check) {
-	return !empty( $_GET[$check]);
+	$url_var = false;
+	if ( !empty( $_GET[$check]) ) :
+		$url_var = $_GET[$check];
+	endif;
+	return $url_var;
 }
-// Comprueba que es te definida la variable y que no esté vacía por POST
-function check_post ($check) {
-	return !empty( $_POST[$check]);
-}
+
 ?>

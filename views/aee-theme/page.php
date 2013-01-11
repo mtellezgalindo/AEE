@@ -4,6 +4,7 @@
 			<span class="aLeft">Somos una sociedad de periódicos</span><br>
 			<span class="aRight">Líderes de provincia en México</span>
 		</blockquote>
+		<!-- Tira de periódicos -->
 		<div class="partners">
 			<img class="partner-logo" src="assets/img/logos_periodicos/pleca_todos.jpg" width="984" height="59" hei alt="Periódicos asociados: 'El Siglo de Torreón', 'Diario de Yucatán', 'El Imparcial', 'La Crónica', 'El Siglo de Durango', 'Frontera', 'La I' ">
 		</div>
