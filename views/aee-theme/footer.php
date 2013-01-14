@@ -1,104 +1,106 @@
 	<footer id="footer" class="fClear clearfix">
-		<div class="footer-form-container">
+		
+		<!-- Acceso interno -->
+		<div class="footer-form-container" id="footer-form-container-acceso">
 			<form id="footer-form-acceso" class="footer-form" method="POST" action="">
-				<h3 class="bebas-font">Acceso Interno</h3>
-				<div>
-					<label for="ff-acceso-cuenta">
-						Cuenta <br>
+				<h3 class="bebas-font f-form-title"><span class="icon-ff-home"></span>Acceso Interno</h3>
+				<hr class="ff-separador-dark">
+				<div class="ff-little-wrapper">
+					<div>
+						<label for="ff-acceso-cuenta">Cuenta<br></label>
 						<input id="ff-acceso-cuenta" name="ff-acceso-cuenta" type="text" value="" placeholder="Cuenta de acceso" >
-					</label>
-				</div>
-				<div>
-					<label for="ff-acceso-contrasena">
-						Contraseña <br>
+					</div>
+					<div>
+						<label for="ff-acceso-contrasena">Contraseña<br></label>
 						<input id="ff-acceso-contrasena" name="ff-acceso-contrasena" type="password" value="" placeholder="Contraseña">
-					</label>
-				</div>
-				<div class="fClear clearfix">
-					<div class="fLeft">
-						<a href="">Regístrate aquí</a><br>
-						<a href="">Olvidé mi contraseña</a><br>
-						<a href="">Consulta tu email</a><br>
-						<div id="footer-social-icons" class="social-icons">
-							<a class="social-icon icon-twitter" href="<?php site_info('twitter'); ?>" target="_blank" rel="bookmark"></a>
-							<a class="social-icon icon-facebook" href="<?php site_info('facebook'); ?>" target="_blank" rel="bookmark"></a>
-							<a class="social-icon icon-youtube" href="<?php site_info('youtube'); ?>" target="_blank" rel="bookmark"></a>
+					</div>
+					<div class="fClear clearfix">
+						<div class="fLeft" id="ff-acceso-opciones-de-cuenta">
+							<a href="">Regístrate aquí</a><br>
+							<a href="">Olvidé mi contraseña</a><br>
+							<a href="">Consulta tu email</a><br>
+						</div>
+						<div class="fRight" id="ff-acceso-submit-container" >
+							<input type="submit" value="Enviar" class="btn-mini-red">
 						</div>
 					</div>
-					<div class="fRight">
-						<input type="submit" value="Enviar">
+				</div>
+				<div id="footer-social-icons" class="social-icons clear clearfix">
+					<a class="social-icon icon-twitter" href="<?php site_info('twitter'); ?>" target="_blank" rel="bookmark"></a>
+					<a class="social-icon icon-facebook" href="<?php site_info('facebook'); ?>" target="_blank" rel="bookmark"></a>
+					<a class="social-icon icon-youtube" href="<?php site_info('youtube'); ?>" target="_blank" rel="bookmark"></a>
+				</div>
+			</form>
+		</div>
+
+		<!-- Cotizador interno -->
+		<div class="footer-form-container" id="footer-form-container-cotizador">
+			<form id="footer-form-cotizador" class="footer-form" method="POST" action="">
+				<h3 class="bebas-font f-form-title"><span class="icon-ff-calendar"></span>Cotizador Interno</h3>
+				<hr class="ff-separador-dark">
+				<div class="ff-little-wrapper">
+					<div>
+						<label for="ff-cotizador-periodico">Periódico<br></label>
+						<input id="ff-cotizador-periodico" name="ff-cotizador-periodico" type="text" value="" placeholder="Periódico">
+					</div>
+					<div>
+						<label for="ff-cotizador-posicion">Posición <br></label>
+						<input id="ff-cotizador-posicion" name="ff-cotizador-posicion" type="text"  value="" placeholder="Posición">
+					</div>
+					<div>
+						<label for="ff-cotizador-color">Color <br></label>
+						<input id="ff-cotizador-color" name="ff-cotizador-color" type="text" value="" placeholder="Color">
+					</div>
+					<div>
+						<label for="ff-cotizador-sección">Sección <br></label>
+						<input id="ff-cotizador-sección" name="ff-cotizador-sección" type="text" value="" placeholder="sección">
+					</div>
+					<div class="fClear clearfix" id="ff-cotizador-last-otptions">
+						<div class="fLeft" id="ff-cotizador-publicacion-container">
+							<label for="ff-contacto-fecha-publicacion"><span class="icon-ff-calendar"></span>Fecha de publicación <br></label>
+							<!-- <input id="ff-contacto-fecha-publicacion" name="ff-contacto-fecha-publicacion" type="text" value="" placeholder="dd/mm/aaa"> -->
+						</div>
+						<div class="fRight">
+							<input type="submit" value="Enviar" class="btn-mini-red">
+						</div>
 					</div>
 				</div>
 			</form>
 		</div>
-		<div class="footer-form-container">
-			<form id="footer-form-cotizador" class="footer-form" method="POST" action="">
-				<h3 class="bebas-font">Cotizador Interno</h3>
-				<div>
-					<label for="ff-cotizador-periodico">
-						Periódico <br>
-						<input id="ff-cotizador-periodico" name="ff-cotizador-periodico" type="text" value="" placeholder="Periódico">
-					</label>
-				</div>
-				<div>
-					<label for="ff-cotizador-posicion">
-						Posición <br>
-						<input id="ff-cotizador-posicion" name="ff-cotizador-posicion" type="text"  value="" placeholder="Posición">
-					</label>
-				</div>
-				<div>
-					<label for="ff-cotizador-color">
-						Color <br>
-						<input id="ff-cotizador-color" name="ff-cotizador-color" type="text" value="" placeholder="color">
-					</label>
-				</div>
-				<div>
-					<label for="ff-cotizador-sección">
-						Sección <br>
-						<input id="ff-cotizador-sección" name="ff-cotizador-sección" type="text" value="" placeholder="sección">
-					</label>
-				</div>
-				<div class="fClear clearfix">
-					<div class="fLeft">
-						<label for="ff-contacto-fecha-publicacion">
-							Fecha de publicación <br>
-							<input id="ff-contacto-fecha-publicacion" name="ff-contacto-fecha-publicacion" type="text" value="">
+
+		<!-- Contacto -->
+		<div class="footer-form-container" id="footer-form-container-contacto">
+			<form id="footer-form-contacto" class="footer-form" method="POST" action="">
+				<h3 class="bebas-font f-form-title"><span class="icon-ff-mail"></span>Contacto</h3>
+				<hr class="ff-separador-light">
+				<div class="ff-little-wrapper">
+					<div>
+						<label for="ff-contacto-nombre">
+							Nombre <br>
+							<input id="ff-contacto-nombre" name="ff-contacto-nombre" type="text" value="">
 						</label>
 					</div>
-					<div class="fRight">
-						<input type="submit" value="Enviar">
+					<div>
+						<label for="ff-contacto-email">
+							Email <br>
+							<input id="ff-contacto-email" name="ff-contacto-email" type="text" value="">
+						</label>
 					</div>
-				</div>
-			</form>
-		</div>
-		<div class="footer-form-container">
-			<form id="footer-form-contacto" class="footer-form" method="POST" action="">
-				<h3 class="bebas-font">Contacto</h3>
-				<div>
-					<label for="ff-contacto-nombre">
-						Nombre <br>
-						<input id="ff-contacto-nombre" name="ff-contacto-nombre" type="text" value="">
-					</label>
-				</div>
-				<div>
-					<label for="ff-contacto-email">
-						Email <br>
-						<input id="ff-contacto-email" name="ff-contacto-email" type="text" value="">
-					</label>
-				</div>
-				<div>
-					<label for="ff-contacto-comentario">
-						Comentarios <br>
-						<input id="ff-contacto-comentario" name="ff-contacto-comentario" type="text" value="">
-					</label>
-				</div>
-				<div class="fClear clearfix">
-					<div class="fLeft">
-						<small><sup>*</sup>Campos Obligatorios</small>
+					<div>
+						<label for="ff-contacto-comentario">
+							Comentarios <br>
+							<textarea id="ff-contacto-comentario" name="ff-contacto-comentario" value="" rows="5" placeholder="Escríbenos"></textarea>
+						</label>
 					</div>
-					<div class="fRight">
-						<input type="submit" value="Enviar">
+					<div class="fClear clearfix">
+						<div class="fLeft">
+							<small><sup>*</sup>Campos Obligatorios</small>
+						</div>
+						<div class="fRight">
+							<input type="submit" value="Enviar" class="btn-mini-red">
+						</div>
 					</div>
+					<br>
 				</div>
 			</form>
 		</div>

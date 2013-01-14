@@ -76,6 +76,6 @@
 				<li class="menu-item"><a href="?p=contacto"  >Contacto</a></li>
 			</ul>
 		</nav>
-		<?php // get_widget('slider'); ?>
+		<?php get_widget('slider'); ?>
 	</header>
 	<!-- /#header -->
