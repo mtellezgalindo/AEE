@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="author" type="text/plain" href="humans.txt">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-directory'); ?>/libs/normalize_v2.0.1.css">
+	<link rel="stylesheet" type="text/css" href="<?php site_info('css-directory'); ?>/others/all_plugins_styles.css">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-file'); ?>">
 	<!--[if lt IE 9]><script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/html5.js"></script><![endif]-->	
 </head>

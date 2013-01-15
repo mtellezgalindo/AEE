@@ -41,7 +41,22 @@
 				<div class="ff-little-wrapper">
 					<div>
 						<label for="ff-cotizador-periodico">Periódico<br></label>
-						<input id="ff-cotizador-periodico" name="ff-cotizador-periodico" type="text" value="" placeholder="Periódico">
+						<!-- <input id="ff-cotizador-periodico" name="ff-cotizador-periodico" type="text" value="" placeholder="Periódico"> -->
+						<select id="ff-cotizador-nombre-periodico" class="" name="ff-cotizador-nombre-periodico">
+							<option value="siglo-torreon">El siglo de Torreón</option>
+							<option value="diario-yucatan">El Diario de Yucatán</option>
+							<option value="imparcial">El Imparcial</option>
+							<option value="cronica">La Cronica</option>
+							<option value="siglo-durango">El Siglo de Durango</option>
+							<option value="frontera">La Frontera</option>
+							<option value="frontera-ensenada">La Frontera Ensenada</option>
+							<option value="Frontera-san-diego">La Frontea San Diego</option>
+							<option value="la-i-laguna">La i Laguna</option>
+							<option value="la-i-hermosillo">La i Hermosillo</option>
+							<option value="la-i-campeche">La i Campeche</option>
+							<option value="la-i-yucatan">La i Yucatán</option>
+							<option value="al-chile">Al Chile</option>
+						</select>
 					</div>
 					<div>
 						<label for="ff-cotizador-posicion">Posición <br></label>
@@ -58,10 +73,10 @@
 					<div class="fClear clearfix" id="ff-cotizador-last-otptions">
 						<div class="fLeft" id="ff-cotizador-publicacion-container">
 							<label for="ff-contacto-fecha-publicacion"><span class="icon-ff-calendar"></span>Fecha de publicación <br></label>
-							<!-- <input id="ff-contacto-fecha-publicacion" name="ff-contacto-fecha-publicacion" type="text" value="" placeholder="dd/mm/aaa"> -->
+							<input id="ff-contacto-fecha-publicacion" name="ff-contacto-fecha-publicacion" type="text" value="" placeholder="dd/mm/aaa">
 						</div>
 						<div class="fRight">
-							<input type="submit" value="Enviar" class="btn-mini-red">
+							<input id="ff-cotizador-submit" class="btn-mini-red" type="submit" value="Enviar" >
 						</div>
 					</div>
 				</div>
@@ -76,19 +91,19 @@
 				<div class="ff-little-wrapper">
 					<div>
 						<label for="ff-contacto-nombre">
-							Nombre <br>
+							Nombre<sup>*</sup> <br>
 							<input id="ff-contacto-nombre" name="ff-contacto-nombre" type="text" value="">
 						</label>
 					</div>
 					<div>
 						<label for="ff-contacto-email">
-							Email <br>
+							Email<sup>*</sup> <br>
 							<input id="ff-contacto-email" name="ff-contacto-email" type="text" value="">
 						</label>
 					</div>
 					<div>
 						<label for="ff-contacto-comentario">
-							Comentarios <br>
+							Comentarios<sup>*</sup><br>
 							<textarea id="ff-contacto-comentario" name="ff-contacto-comentario" value="" rows="5" placeholder="Escríbenos"></textarea>
 						</label>
 					</div>
@@ -109,13 +124,14 @@
 <!-- /#main-container -->
 <div id="black-bar-footer">
 	<div class="container aCenter">
-		AEE-Asociación de Editores de los Estados, A.C. 2008. Todos los derechos reservados | Política de privacidad | Creado por <a href="http://www.altusmedia.com.mx">Altusmedia</a>
+		AEE-Asociación de Editores de los Estados, A.C. 2008. Todos los derechos reservados | <a href="<?php site_info('home-url'); ?>?p=politicas-privacidad">Política de privacidad</a> | Creado por <a id="link-altus" href="http://www.altusmedia.com.mx" target="_blank">Altusmedia</a>
 	</div>
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script defer >window.jQuery || document.write('<script src="<?php site_info("js-directory"); ?>/libs/jquery.min.js"><\/script>')</script>
 <script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/cufon-yui.js"></script>
 <script type="text/javascript" src="<?php site_info('fonts-directory'); ?>/Bebas_Neue_400.font.js"></script>
+<script defer src="<?php site_info('js-directory'); ?>/plugins/general_plugins.js"></script>
 <script defer src="<?php site_info('js-file'); ?>"></script>
 <script defer type="text/javascript">
 	Cufon.replace(".bebas-font,	.section-title");

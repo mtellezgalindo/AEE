@@ -46,10 +46,15 @@ function get_controller(){
 	endif;
 }
 
-// Obtiene información configurada del sitio.
+// Imprime información configurada del sitio.
 function site_info($request){
 	global $config;
 	if ( array_key_exists($request, $config) ) echo $config[$request];
+}
+// Devuelve información configurada del sitio.
+function get_site_info($request){
+	global $config;
+	if ( array_key_exists($request, $config) ) return $config[$request];
 }
 
 // Incluye el header solicitado en base a la plantilla configurada

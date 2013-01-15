@@ -14,7 +14,7 @@
 			<li>La i</li>
 			<li>Internet, Vallas y Publicidad Móvil</li>
 		</ul>
-		<a class="btn-descargar-pdf" href="descargas/libro1#libro1" name="libro1">Descargar</a>
+		<a class="btn-descargar-pdf" href="?p=descargas&item=libro1#libro1" name="libro1">Descargar</a>
 	</div>
 	
 	<div class="libro-item clearfix fClear">
@@ -30,7 +30,7 @@
 			<li>La i</li>
 			<li>Internet, Vallas y Publicidad Móvil</li>
 		</ul>
-		<a class="btn-descargar-pdf" href="descargas/item=libro2#libro2" name="libro2">Descargar</a>
+		<a class="btn-descargar-pdf" href="?p=descargas&item=libro2#libro2" name="libro2">Descargar</a>
 	</div>
 	
 </aside>
