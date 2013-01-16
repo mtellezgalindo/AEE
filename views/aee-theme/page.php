@@ -12,7 +12,9 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Videos</h2>
+						<div class="fancy-header">
+							<h2 class="section-title">Videos</h2>
+						</div>
 						<h3 class="section-subtitle">Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur.</h3>
 					</hgroup>

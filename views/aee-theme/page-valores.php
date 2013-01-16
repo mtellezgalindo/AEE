@@ -4,12 +4,14 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Valores</h2>
+						<div class="fancy-header">
+							<h2 class="section-title">Valores</h2>
+						</div>
 						<h3 class="section-subtitle">Asociación de Editores de los Estados</h3>
 					</hgroup>
 				</header>
 				<div>
-					<ul class="lead">
+					<ul class="feature-list">
 						<li>Honestidad</li>
 						<li>Veracidad</li>
 						<li>Credibilidad</li>

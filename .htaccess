@@ -1,4 +1,4 @@
-#Options -Indexes
-#IndexIgnore *
-RewriteEngine on
+Options -Indexes
+IndexIgnore *
+#RewriteEngine on
 #RewriteRule ^([a-zA-Z0-9\-_]+)/?([a-zA-Z0-9\-_]*)$ ?p=$1&sec=$2 [L]

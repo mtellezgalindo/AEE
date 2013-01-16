@@ -4,7 +4,9 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Clientes</h2>
+						<div class="fancy-header">
+							<h2 class="section-title">Clientes</h2>
+						</div>
 						<h3 class="section-subtitle">Lorem Ipsum</h3>
 					</hgroup>
 				</header>

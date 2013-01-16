@@ -1,20 +1,42 @@
 @charset "UTF-8";
-@font-face {
+/*@font-face {
 	font-family: 'Bebas Neue';
 	src: url('../fonts/BebasNeue-webfont.ttf');
 }
+*/
 @font-face {
-	font-family: 'Myriad Pro';
-	src: url('../fonts/MyriadPro-Regular.otf');
+	font-family: 'BebasNeueRegular';
+	src: url('../fonts/BebasNeue-webfont.eot');
+	src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/BebasNeue-webfont.woff') format('woff'),
+		 url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+		 url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: 'MyriadProRegular';
+	src: url('../fonts/MyriadPro-webfont.eot');
+	src: url('../fonts/MyriadPro-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/MyriadPro-webfont.otf') format('opentype'),
+		 url('../fonts/MyriadPro-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 body {
 	color: #343434;
-	font-family: "Myriad Pro", Helvetica, Arial, Sans-serif;
+	font-family: "MyriadProRegular", Helvetica, Arial, Sans-serif;
 	font-size: 14px;
 	background: #f8f8f8 url('../img/bg/bg-site.jpg');
 	background-size: cover;
 }
 h1,h2,h3,h4,h5,h6 {margin: 0;}
+
+a.more {
+	color: #f14e00;
+	text-decoration: none;
+}
 
 /* Clases para control de estrucutra y flujo */
 .clearfix:after {
@@ -27,6 +49,7 @@ h1,h2,h3,h4,h5,h6 {margin: 0;}
 .fClear		{clear: both;}
 .fLeft		{float: left;}
 .fRight		{float: right;}
+.fCenter 	{clear:both; margin: 0 auto;}
 .aLeft		{text-align: left;}
 .aRight		{text-align: right;}
 .aCenter	{text-align: center;}
@@ -35,13 +58,13 @@ img.aLeft	{float: left; margin: 0 1em 1em 0;}
 img.aRight	{float: right; margin: 0 0 1em 1em;}
 img.aCenter	{clear: both; display: block; margin: 1em auto;}
 
-
 /*#########################################################################*/
 				/* ESTRUCTURA GENERAL ( solamente 'box model') */
 /*#########################################################################*/
 
 .container {
 	margin: 0 auto;
+	width: 100%;
 	max-width: 1024px;
 }
 
@@ -83,6 +106,21 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 	text-align: center;
 
 }
+
+/* Tipografía */
+
+.BebasNeueRegular {
+	font-family: 'BebasNeueRegular', Impact, Helvetica, Arial, Sans-serif;
+	font-weight: normal;
+}
+.MyriadProRegular {
+	font-family: 'BebasNeueRegular', Helvetica, Arial, Sans-serif;
+	font-weight: normal;
+}
+
+
+
+
 /*#########################################################################*/
 				/* header */
 /*#########################################################################*/
@@ -171,7 +209,7 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 .menu > .menu-item > a {
 	border-bottom: 2px solid transparent; 
 	font-size: 18px;
-	font-family: 'Bebas Neue', Impact, Helvetica, Arial, Sans-serif;
+	font-family: 'BebasNeueRegular', Impact, Helvetica, Arial, Sans-serif;
 }
 .menu > .menu-item > a:hover { border-bottom: 2px solid #fff; }
 
@@ -202,11 +240,13 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 #slider {
 	display: block;
 	clear:both;
+	margin: 0;
 	padding:20px;
 	background: #fb7737 url("../img/bg/bg-slider.jpg") center top;
-	/*background-size: contain;*/
+	background-size: cover;
 }
 .flexslider {
+	margin: 0 0 0 0;
 	border: none ;
 	box-shadow:0 10px 20px -2px rgba(0,0,0,.5);
 	max-height: 345px;
@@ -229,16 +269,74 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 	width: 256px;
 	height: 292px;
 	color: #fff;
+	background: rgb(37,37,37);
 	background: rgba(0,0,0,.5);
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	overflow: hidden;
+	border-radius: 2px;
+	white-space: normal;
+	/*text-overflow: ellipsis;*/
+	overflow:hidden;
 }
 .slide-title {
 	font-weight: normal !important;
 	font-size: 225%;
 	letter-spacing: -1px;
 }
+.slide-excerpt p.date {
+	text-align: right;
+	font-style: italic;
+}
+.slide-excerpt p:last-child {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.flex-control-nav {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+	margin: 0;
+	width: 100%;
+	max-width: 310px;
+	z-index: 10;
+}
+.flex-direction-nav a {
+	background: url('../img/bg_direction_nav.png') no-repeat 0 0;
+	width: 30px;
+	height: 30px;
+	margin: -20px 0 0;
+	display: block;
+	position: absolute;
+	top: 50%; z-index: 10;
+	cursor: pointer;
+	text-indent: -9999px;
+	opacity: 0;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+/* Cambia reglas de plugin */
+.flex-direction-nav .flex-next {background-position: 100% 0; right: 33%; }
+.flex-direction-nav .flex-prev {left: 1%;}
+.flexslider:hover .flex-next {opacity: 0.8; right: 33%;}
+.flexslider:hover .flex-prev {opacity: 0.8; left: 1%;}
+
+.flex-control-paging li a {
+	width: 11px;
+	height: 11px;
+	display: block;
+	cursor: pointer;
+	background: url('../img/bullet-orange.png') center center;
+	border-radius: 20px;
+	background-size: contain;
+	box-shadow: none;
+
+}
+.flex-control-paging li a.flex-active {
+	background: url('../img/bullet-orange-active.png') center center;
+	box-shadow: 0 0 10px #fff;
+	cursor: default;
+}
+
 
 /*#########################################################################*/
 				/* Contenido */
@@ -247,18 +345,35 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 	margin: 0;
 	padding: 0 0 1em;
 }
+.fancy-header {
+	background: url('../img/bg/fancy-header.png');
+	background-position:  center center;
+	background-repeat:  repeat-x;
+	border-bottom: 1px solid #da1502;
+}
+.fancy-header:after {
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
 .section-title,
 .section-title-dropdown {
-	border-bottom: 1px solid #da1502;
 	padding: 0 10px;
 	background: #f5f5f5;
 	color: #da1502;
-	font-family: 'Bebas Neue';
+	font-family: 'BebasNeueRegular';
 	font-size: 2em;
 	text-align: left;
+	float: left;
 }
-.section-title-dropdown {
-	background: #f5f5f5 url('../img/arrows-down-mini.png') 95% center no-repeat;
+.section-title {
+}
+.fancy-arrows {
+	background-image: url('../img/arrows-down-mini.png');
+	background-position: 95% center;
+	background-repeat:  no-repeat;
 }
 .section-subtitle {
 	margin: .8em 0;
@@ -321,33 +436,63 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 /* Página PERIODICOS */
 .periodico {
 	margin: 2em 0 2em ;
-	padding: 0 0 1em 0;
+	padding: 0 0 2em 0;
+	background: url('../img/fancy-hr.png') 50% 100% no-repeat;
 }
 .periodico-mapa {
-	display: inline-block;
+	position: relative;
+	display: block;
+	float: left;
+	border-bottom: 1px solid #c20003;
 	width: 300px;
 	height: 200px;
-	background: lightgray;
+	background: #dfdfdf;
 	overflow: hidden;
+	box-shadow: 0 8px 15px -10px #000;
+}
+.periodico-mapa img {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: auto;
 }
 .periodico-meta {
-	display: inline-block;
+	display: block;
+	float: right;
 	width: 100%;
-	max-width: 50%;
+	max-width: 48%;
 	padding: 0 2%;
 	vertical-align: top;
 }
 	.periodico-title {
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 125%;
 		text-shadow:2px 2px 3px rgba(0, 0, 0, 0.36);
 	}
 	.periodico-logo {
 		width: 100%;
 	}
 	.periodico-logo img {
-		width: 100%;
-		height: auto;
+		/*width: 100%;
+		height: auto;*/
 	}
-
+	.periodico-info {
+		margin: 0 0 .5em;
+	}
+	.periodico-link {
+		display: block;
+		float: left;
+		color: #343434;
+		color: inherit;
+		text-decoration: none;
+		font-size: 90%;
+	}
+	.periodico-descargar {
+		display: block;
+		float: right;
+	}
 
 
 /*#########################################################################*/
@@ -371,18 +516,35 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 	box-shadow: 5px 5px 15px -5px #000;
 }
 .libro-titulo {
-	border-bottom: 1px solid #292929;
 	padding: 0 0 .2em;
-	color: #111;
+	color: #2f2f2f;
 	font-size: 120%;
-	font-weight: normal;
+	font-weight: bold;
 	text-transform: uppercase;
-	text-shadow: 0 1px 1px #111;
+	text-shadow:0 1px 1px #2f2f2f;
 	letter-spacing: -1px;
 }
-.libro-item ul { font-size: .8em; }
+.libro-item .fLeft {
+	width: 100%;
+	max-width: 140px;
+}
+.libro-item .fRight {
+	width: 100%;
+	max-width: 145px;
+}
+
+.libro-item ul {
+	font-size: .8em;
+	padding: 0 0 0 1em;
+}
 .libro-item ul li {
 	margin: 0 0 0 10px;
+}
+#sidebar-libroV .libro-titulo {
+	border-bottom: 1px solid #516b31;
+}
+#sidebar-libroR .libro-titulo {
+	border-bottom: 1px solid #d20003;
 }
 .btn {
 	display: block;
@@ -427,6 +589,47 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 }
 .btn-descargar-pdf:hover {	box-shadow:inset 0 -1px 5px 0px rgba(0, 0, 0, .3); }
 .btn-descargar-pdf:active {	box-shadow:inset 0px 1px 8px 0px #350000; }
+
+#table-directorio,
+#table-asesores {
+	margin: 0 0 0 2em;
+	width: 80%;
+	border-collapse: collapse;
+}
+
+.table {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+.table tr:hover {
+	background: #eee;
+}
+.table td {
+	padding: 5px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #DDD;
+}
+
+.feature-list {
+	font-size: 115%;
+}
+.feature-list li {
+	margin: 0 0 .5em 0;
+}
+
+.historia-list-periodicos {
+	display: block;
+	margin: 0 auto;
+	padding: 1%;
+	width: 100%;
+	max-width: 280px;
+	list-style: none;
+	border: 1px solid #dfdfdf;
+	box-shadow: 0 10px 20px -10px #292929;
+}
+
 
 /*#########################################################################*/
 				/* footer - pie de página */
@@ -487,7 +690,7 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 	box-shadow:inset 0px 1px 5px -1px rgb(0, 0, 0);
 	color: #292929;
 	line-height: 1.5em;
-	font-family: 'Myriad Pro', Helvetica, Arial, Sans-serif;
+	font-family: 'MyriadProRegular', Helvetica, Arial, Sans-serif;
 }
 .footer-form textarea {
 	overflow: hidden;
@@ -505,12 +708,12 @@ img.aCenter	{clear: both; display: block; margin: 1em auto;}
 	border-radius: 2px;
 	box-shadow:inset 0px 1px 5px -1px rgb(0, 0, 0);
 	color: #292929;
-	font-family: 'Myriad Pro', Helvetica, Arial, Sans-serif;
+	font-family: 'MyriadProRegular', Helvetica, Arial, Sans-serif;
 	line-height: 1.5em;
 }
 .footer-form option {
 	color: #292929;
-	font-family: 'Myriad Pro', Helvetica, Arial, Sans-serif;
+	font-family: 'MyriadProRegular', Helvetica, Arial, Sans-serif;
 	line-height: 1.5em;
 
 }

@@ -4,7 +4,9 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Nosotros</h2>
+						<div class="fancy-header">
+							<h2 class="section-title">¿Quiénes somos?</h2>
+						</div>
 						<h3 class="section-subtitle">Asociación de Editores de los Estados</h3>
 					</hgroup>
 				</header>
@@ -21,7 +23,7 @@
 					<p>Tenemos para ustedes periódicos  de calidad… Resultado de 78 años de experiencia renovada.</p>
 					<p>Aseguramos así  un Periodismo de  calidad, al servicio de la comunidad.</p>
 					<p>Nuestros periódicos asociados son:</p>
-					<ul>
+					<ul class="feature-list">
 						<li>El Siglo de Torreón</li>
 						<li>Diario de Yucatán</li>
 						<li>El Imparcial</li>
@@ -33,7 +35,7 @@
 						<li>La I laguna, La I Hermosillo, La I Campeche, La I Yucatán</li>
 						<li>Al Chile</li>
 					</ul>
-					<p>Somos el medio perfecto para tus  anunciantes.</p>
+					<p class="lead aCenter">Somos el medio perfecto para tus  anunciantes.</p>
 				</div>
 			</article>
 		</section>

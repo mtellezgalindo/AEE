@@ -4,36 +4,40 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Periódicos</h2>
+						<div class="fancy-header">
+							<h2 class="section-title">Periódicos</h2>
+						</div>
 						<h3 class="section-subtitle">Asociación de Editores de los Estados</h3>
 					</hgroup>
 				</header>
 				<div>
-					<p class="lead">Directorio</p>
-					<table>
-						<tr>
-							<td>Director General</td>
-							<td>Alberto Jaramillo Cepeda</td>
-							<td>alberto.jaramillo@aee.com.mx</td>
-						</tr>
-						<tr>
-							<td>Gerente de Imagen Corporativa</td>
-							<td>Laura Solórzano Martínez</td>
-							<td>lsolmar@aee.com.mx</td>
-						</tr>
-						<tr>
-							<td>Gerente de Sistema</td>
-							<td>Miguel Ángel Morales Cárdenas</td>
-							<td>miguelangel.morales@aee.com.mx</td>
-						</tr>
-						<tr>
-							<td>Gerente de Administración</td>
-							<td>María Eugenia Morán Rodríguez</td>
-							<td>eugenia.moran@aee.com.mx</td>
-						</tr>
+					<p class="lead">Directorio:</p>
+					<table id="table-directorio" class="table">
+						<tbody>
+							<tr>
+								<td>Director General</td>
+								<td>Alberto Jaramillo Cepeda</td>
+								<td>alberto.jaramillo@aee.com.mx</td>
+							</tr>
+							<tr>
+								<td>Gerente de Imagen Corporativa</td>
+								<td>Laura Solórzano Martínez</td>
+								<td>lsolmar@aee.com.mx</td>
+							</tr>
+							<tr>
+								<td>Gerente de Sistema</td>
+								<td>Miguel Ángel Morales Cárdenas</td>
+								<td>miguelangel.morales@aee.com.mx</td>
+							</tr>
+							<tr>
+								<td>Gerente de Administración</td>
+								<td>María Eugenia Morán Rodríguez</td>
+								<td>eugenia.moran@aee.com.mx</td>
+							</tr>
+						</tbody>
 					</table>
-					<p class="lead">Asesores Comerciales</p>
-					<table>
+					<p class="lead">Asesores Comerciales:</p>
+					<table id="table-asesores" class="table">
 						<tr>
 							<td>Rodolfo Esparza Martínez</td>
 							<td>rodolfo.esparza@aee.com.mx</td>

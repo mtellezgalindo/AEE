@@ -4,7 +4,9 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Historia</h2>
+						<div class="fancy-header">
+							<h2 class="section-title">Historia</h2>
+						</div>
 						<h3 class="section-subtitle">Asociación de Editores de los Estados</h3>
 					</hgroup>
 				</header>
@@ -18,7 +20,7 @@
 					<p>Una vez disuelta la Prensa Asociada de los Estados, a iniciativa de los señores Antonio de Juambelz, director del periódico “El siglo de Torreón”; Rubén Menéndez, del “diario de Yucatán”; Jesús Álvarez del Castillo, de “El Informador”, de Guadalajara, y Vicente Villasana, de “El Mundo” de Tampico, se funda en los primeras días de ese mismo mes de mayo de 1934 la Asociación de Editores de los Estados (AEE).</p>
 					<p>Los propios fundadores fueron quienes seleccionaron a los Integrantes, pues se pretendió y logró que todos ellos fueran periódicos notoriamente honorables y con semejante situación económica. Todos solventes.</p>
 					<p>De esta forma se invito al decano de la prensa nacional, “El Dictamen” de Veracruz, y al periódico “El Porvenir” de Monterrey. Y así, los seis miembros fundadores de la Asociación fueron:</p>
-					<ul>
+					<ul class="historia-list-periodicos feature-list">
 						<li>El Siglo de Torreón</li>
 						<li>Diario de Yucatán</li>
 						<li>El Informador de Guadalajara</li>

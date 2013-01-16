@@ -3,7 +3,7 @@
 		<!-- Acceso interno -->
 		<div class="footer-form-container" id="footer-form-container-acceso">
 			<form id="footer-form-acceso" class="footer-form" method="POST" action="">
-				<h3 class="bebas-font f-form-title"><span class="icon-ff-home"></span>Acceso Interno</h3>
+				<h3 class="BebasNeueRegular f-form-title"><span class="icon-ff-home"></span>Acceso Interno</h3>
 				<hr class="ff-separador-dark">
 				<div class="ff-little-wrapper">
 					<div>
@@ -36,7 +36,7 @@
 		<!-- Cotizador interno -->
 		<div class="footer-form-container" id="footer-form-container-cotizador">
 			<form id="footer-form-cotizador" class="footer-form" method="POST" action="">
-				<h3 class="bebas-font f-form-title"><span class="icon-ff-calendar"></span>Cotizador Interno</h3>
+				<h3 class="BebasNeueRegular f-form-title"><span class="icon-ff-calendar"></span>Cotizador Interno</h3>
 				<hr class="ff-separador-dark">
 				<div class="ff-little-wrapper">
 					<div>
@@ -86,7 +86,7 @@
 		<!-- Contacto -->
 		<div class="footer-form-container" id="footer-form-container-contacto">
 			<form id="footer-form-contacto" class="footer-form" method="POST" action="">
-				<h3 class="bebas-font f-form-title"><span class="icon-ff-mail"></span>Contacto</h3>
+				<h3 class="BebasNeueRegular f-form-title"><span class="icon-ff-mail"></span>Contacto</h3>
 				<hr class="ff-separador-light">
 				<div class="ff-little-wrapper">
 					<div>
@@ -127,15 +127,20 @@
 		AEE-Asociación de Editores de los Estados, A.C. 2008. Todos los derechos reservados | <a href="<?php site_info('home-url'); ?>?p=politicas-privacidad">Política de privacidad</a> | Creado por <a id="link-altus" href="http://www.altusmedia.com.mx" target="_blank">Altusmedia</a>
 	</div>
 </div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script defer >window.jQuery || document.write('<script src="<?php site_info("js-directory"); ?>/libs/jquery.min.js"><\/script>')</script>
+<!--[if lt IE 8]>
 <script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/cufon-yui.js"></script>
 <script type="text/javascript" src="<?php site_info('fonts-directory'); ?>/Bebas_Neue_400.font.js"></script>
+<![endif]-->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script defer >window.jQuery || document.write('<script src="<?php site_info("js-directory"); ?>/libs/jquery.min.js"><\/script>')</script>
 <script defer src="<?php site_info('js-directory'); ?>/plugins/general_plugins.js"></script>
 <script defer src="<?php site_info('js-file'); ?>"></script>
+<!--[if lt IE 8]>
 <script defer type="text/javascript">
-	Cufon.replace(".bebas-font,	.section-title");
-	Cufon.now();
+	// Cufon.replace(".BebasNeueRegular, .section-title");
+	// Cufon.now();
 </script>
+<![endif]-->
 </body>
 </html>

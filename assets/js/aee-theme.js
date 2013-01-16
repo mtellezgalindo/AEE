@@ -12,6 +12,7 @@ function inicio () {
 			format: 'DD/MM/YYYY'
 		}
 	);
+	// Slider principal del header
 	$('.flexslider').flexslider();
 
 } // END function inicio

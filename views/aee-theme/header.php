@@ -12,6 +12,13 @@
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-directory'); ?>/libs/normalize_v2.0.1.css">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-directory'); ?>/others/all_plugins_styles.css">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-file'); ?>">
+	<!--[if lt IE 10]>
+	<style type="text/css">
+	.libro-titulo {
+		font-weight: bold;
+	}
+	</style>
+	<![endif]-->	
 	<!--[if lt IE 9]><script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/html5.js"></script><![endif]-->	
 </head>
 <body>
@@ -30,7 +37,7 @@
 		</div>
 		<nav class="navigation">
 			<ul class="menu clearfix">
-				<li class="menu-item"><a href="?=quienes-somos"  >Nosotros</a>
+				<li class="menu-item"><a href="?p=quienes-somos">Nosotros</a>
 					<ul class="submenu">
 						<li class="menu-item"><a href="?p=quienes-somos"  >Quiénes somos</a></li>
 						<li class="menu-item"><a href="?p=mision-vision"  >Misión y visión</a></li>

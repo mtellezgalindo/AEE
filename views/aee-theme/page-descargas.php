@@ -4,7 +4,9 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Descargas</h2>
+						<div class="fancy-header">
+							<h2 class="section-title">Descargas</h2>
+						</div>
 						<h3 class="section-subtitle">Descargas disponibles</h3>
 					</hgroup>
 				</header>

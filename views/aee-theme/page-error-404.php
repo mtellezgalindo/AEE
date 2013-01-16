@@ -4,7 +4,9 @@
 			<article>
 				<header>
 					<hgroup>
-						<h2 class="section-title">Sección no encontrada</h2>
+						<div class="fancy-header">
+							<h2 class="section-title">Sección no encontrada</h2>
+						</div>
 						<h3 class="section-subtitle">Lo sentimos, no encontramos lo que buscabas.</h3>
 					</hgroup>
 				</header>
