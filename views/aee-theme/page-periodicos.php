@@ -94,6 +94,29 @@
 							<img src="assets/img/media/mapas/mapa-la-i-laguna.jpg" width="300" height="200" alt="Mapa La i">
 						</div>
 					</div>
+					<div class="periodico clear clearfix">
+						<div class="periodico-meta clear clearfix">
+							<div class="periodico-title lead">Al Chile</div>
+							<div class="periodico-logo"><img src="assets/img/logos_periodicos/logo-al-chile.png" width="300" height="81" alt="La i"></div>
+							<div class="periodico-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+							<a class="periodico-link" href="" rel="bookmark">www.loremipsum.com.mx</a>
+							<a class="periodico-descargar btn" href="">Descargar</a>
+						</div>
+						<div class="periodico-mapa">
+							<img src="assets/img/media/mapas/mapa-la-i-laguna.jpg" width="300" height="200" alt="Mapa Al Chile">
+						</div>
+					</div>
+					<div class="periodico clear clearfix">
+						<div class="periodico-meta clear clearfix">
+							<div class="periodico-title lead">Internet</div>
+							<div class="periodico-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+							<a class="periodico-link" href="" rel="bookmark">www.loremipsum.com.mx</a>
+							<a class="periodico-descargar btn" href="">Descargar</a>
+						</div>
+						<div class="periodico-mapa">
+							<img src="assets/img/media/mapas/mapa-internet.png" width="300" height="200" alt="Mapa Internet">
+						</div>
+					</div>
 				</div><!-- / .periodicos -->
 			</article>
 		</section>

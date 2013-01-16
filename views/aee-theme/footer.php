@@ -127,15 +127,14 @@
 		AEE-Asociación de Editores de los Estados, A.C. 2008. Todos los derechos reservados | <a href="<?php site_info('home-url'); ?>?p=politicas-privacidad">Política de privacidad</a> | Creado por <a id="link-altus" href="http://www.altusmedia.com.mx" target="_blank">Altusmedia</a>
 	</div>
 </div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="<?php site_info("js-directory"); ?>/libs/jquery.min.js"><\/script>')</script>
+<script src="<?php site_info('js-directory'); ?>/plugins/general_plugins.js"></script>
+<script src="<?php site_info('js-file'); ?>"></script>
 <!--[if lt IE 8]>
 <script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/cufon-yui.js"></script>
 <script type="text/javascript" src="<?php site_info('fonts-directory'); ?>/Bebas_Neue_400.font.js"></script>
 <![endif]-->
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script defer >window.jQuery || document.write('<script src="<?php site_info("js-directory"); ?>/libs/jquery.min.js"><\/script>')</script>
-<script defer src="<?php site_info('js-directory'); ?>/plugins/general_plugins.js"></script>
-<script defer src="<?php site_info('js-file'); ?>"></script>
 <!--[if lt IE 8]>
 <script defer type="text/javascript">
 	// Cufon.replace(".BebasNeueRegular, .section-title");
