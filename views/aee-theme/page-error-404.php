@@ -7,7 +7,9 @@
 						<div class="fancy-header">
 							<h2 class="section-title">Sección no encontrada</h2>
 						</div>
-						<h3 class="section-subtitle">Lo sentimos, no encontramos lo que buscabas.</h3>
+						<div class="error-container">
+							<h3 class="section-subtitle">Lo sentimos, no encontramos lo que buscabas.</h3>
+						</div>
 					</hgroup>
 				</header>
 				<div>

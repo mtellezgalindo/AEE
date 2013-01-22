@@ -11,6 +11,7 @@
 	<link rel="author" type="text/plain" href="humans.txt">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-directory'); ?>/libs/normalize_v2.0.1.css">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-directory'); ?>/others/all_plugins_styles.css">
+	<link rel="stylesheet" type="text/css" href="http://vjs.zencdn.net/c/video-js.css">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-file'); ?>">
 	<!--[if lt IE 10]>
 	<style type="text/css">
@@ -18,11 +19,11 @@
 		font-weight: bold;
 	}
 	</style>
-	<![endif]-->	
-	<!--[if lt IE 9]><script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/html5.js"></script><![endif]-->	
+	<![endif]-->
+	<!--[if lt IE 9]><script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/html5.js"></script><![endif]-->
 </head>
 <body>
-<!--[if lt IE 8]>
+<!--[if lt IE 9]>
 <p class="chromeframe" style="position:fixed; top 0; left:0;">Usas un navegador <strong>antiguo</strong>. Por favor <a href="http://browsehappy.com/" target="_blank">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorar tu experiencia en este sitio.</p>
 <![endif]-->
 <div id="black-bar-header"></div>
@@ -61,9 +62,9 @@
 						<li class="menu-item"><a href="?p=periodico-la-frontera"  >La Frontera</a></li>
 						<li class="menu-item"><a href="?p=periodico-la-i"  >La I</a></li>
 						<li class="menu-item"><a href="?p=periodico-al-chile"  >Al Chile</a></li>
-						<li class="menu-item"><a href="?p=periodico-internet"  >Internet</a></li>
-						<li class="menu-item"><a href="?p=periodico-vallas"  >Vallas</a></li>
-						<li class="menu-item"><a href="?p=periodico-publicidad-movil"  >Publicidad Móvil</a></li>
+						<li class="menu-item"><a href="?p=en-internet"  >Internet</a></li>
+						<li class="menu-item"><a href="?p=en-vallas"  >Vallas</a></li>
+						<li class="menu-item"><a href="?p=en-publicidad-movil"  >Publicidad Móvil</a></li>
 					</ul>
 				</li>
 				<li class="menu-item"><a href="?p=media-kit-2012"  >Media Kit 2012</a>

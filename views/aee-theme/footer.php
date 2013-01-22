@@ -7,6 +7,7 @@
 				<hr class="ff-separador-dark">
 				<div class="ff-little-wrapper">
 					<div>
+						<input type="hidden" name="fname" value="ff-acceso">
 						<label for="ff-acceso-cuenta">Cuenta<br></label>
 						<input id="ff-acceso-cuenta" name="ff-acceso-cuenta" type="text" value="" placeholder="Cuenta de acceso" >
 					</div>
@@ -40,6 +41,7 @@
 				<hr class="ff-separador-dark">
 				<div class="ff-little-wrapper">
 					<div>
+						<input type="hidden" name="fname" value="ff-cotizador">
 						<label for="ff-cotizador-periodico">Periódico<br></label>
 						<!-- <input id="ff-cotizador-periodico" name="ff-cotizador-periodico" type="text" value="" placeholder="Periódico"> -->
 						<select id="ff-cotizador-nombre-periodico" class="" name="ff-cotizador-nombre-periodico">
@@ -83,28 +85,29 @@
 			</form>
 		</div>
 
-		<!-- Contacto -->
+		<!-- Formulario Contacto-->
 		<div class="footer-form-container" id="footer-form-container-contacto">
-			<form id="footer-form-contacto" class="footer-form" method="POST" action="">
+			<form id="footer-form-contacto" class="footer-form" method="POST" action="<?php site_info('home-url'); ?>/?p=contacto">
 				<h3 class="BebasNeueRegular f-form-title"><span class="icon-ff-mail"></span>Contacto</h3>
 				<hr class="ff-separador-light">
 				<div class="ff-little-wrapper">
 					<div>
+						<input type="hidden" name="fname" value="ff-contacto">
 						<label for="ff-contacto-nombre">
 							Nombre<sup>*</sup> <br>
-							<input id="ff-contacto-nombre" name="ff-contacto-nombre" type="text" value="">
+							<input id="ff-contacto-nombre" class="ff-contacto-nombre" name="ff-contacto-nombre" type="text" value="" required >
 						</label>
 					</div>
 					<div>
 						<label for="ff-contacto-email">
 							Email<sup>*</sup> <br>
-							<input id="ff-contacto-email" name="ff-contacto-email" type="text" value="">
+							<input id="ff-contacto-email" class="ff-contacto-email" name="ff-contacto-email" type="text" value="" required>
 						</label>
 					</div>
 					<div>
 						<label for="ff-contacto-comentario">
 							Comentarios<sup>*</sup><br>
-							<textarea id="ff-contacto-comentario" name="ff-contacto-comentario" value="" rows="5" placeholder="Escríbenos"></textarea>
+							<textarea id="ff-contacto-comentario" class="ff-contacto-comentario" name="ff-contacto-comentario" value="" rows="5" placeholder="Escríbenos" required ></textarea>
 						</label>
 					</div>
 					<div class="fClear clearfix">
@@ -118,7 +121,8 @@
 					<br>
 				</div>
 			</form>
-		</div>
+		</div><!-- Formulario Contacto-->
+
 	</footer>
 </div>
 <!-- /#main-container -->
@@ -131,6 +135,7 @@
 <script>window.jQuery || document.write('<script src="<?php site_info("js-directory"); ?>/libs/jquery.min.js"><\/script>')</script>
 <script src="<?php site_info('js-directory'); ?>/plugins/general_plugins.js"></script>
 <script src="<?php site_info('js-file'); ?>"></script>
+<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
 <!--[if lt IE 8]>
 <script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/cufon-yui.js"></script>
 <script type="text/javascript" src="<?php site_info('fonts-directory'); ?>/Bebas_Neue_400.font.js"></script>

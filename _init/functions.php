@@ -46,6 +46,7 @@ function get_controller(){
 	endif;
 }
 
+
 // Imprime información configurada del sitio.
 function site_info($request){
 	global $config;
@@ -111,6 +112,8 @@ function check_get ($check) {
 	endif;
 	return $url_var;
 }
+
+// Descargar Archivo
 function download_file ($file) {
 	$basefile = basename($file);
 	header( "Content-Type: application/octet-stream");
@@ -119,6 +122,22 @@ function download_file ($file) {
 	readfile($file);
 }
 
+
+function altus_head( $set_mode = false, $add_to_head = '', $reset_content = false ) {
+	static $head_content;
+	if ( $reset_content ) : $head_content = ''; endif;
+	if ( $set_mode ) : $head_content .= $add_to_head;
+	else : echo $head_content;
+	endif;
+}
+
+function altus_footer( $set_mode = false, $add_to_footer = '', $reset_content = false ) {
+	static $footer_content;
+	if ( $reset_content ) $footer_content = '';
+	if ( $set_mode ) : $footer_content .= $add_to_footer;
+	else : echo $footer_content;
+	endif;
+}
 
 
 ?>
