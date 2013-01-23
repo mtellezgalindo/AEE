@@ -21,6 +21,38 @@
 	<![endif]-->
 	<!--[if lt IE 9]><script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/html5.js"></script><![endif]-->
 	<?php altus_head(); ?>
+	<style type="text/css">
+		.flowplayer { width: 80%; }
+		.flowplayer .fp-controls { background-color: rgba(17, 17, 17, 1)}
+		.flowplayer .fp-timeline { background-color: rgba(204, 204, 204, 1)}
+		.flowplayer .fp-progress { background-color: rgba(0, 167, 200, 1)}
+		.flowplayer .fp-buffer { background-color: rgba(249, 249, 249, 1)}
+		.flowplayer .fp-playlist {
+			display: block;
+			z-index: 100;
+			position: absolute;
+			width: 100%;
+			height: auto;
+			background: gray;
+			top: 115%;
+		}
+		.flowplayer a {
+			display: inline-block;
+			border: 2px solid transparent;
+			width: 100px;
+			height: 70px;
+			overflow: hidden;
+			vertical-align: top;
+		}
+		.flowplayer a.is-active {
+			border: 2px solid red;
+		}
+		.flowplayer a img {
+			width: 100%;
+			height: auto;
+			vertical-align: top;
+		}
+	</style>
 </head>
 <body>
 <!--[if lt IE 9]>

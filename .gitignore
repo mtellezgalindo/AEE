@@ -162,12 +162,14 @@ pip-log.txt
 # Mac crap
 .DS_Store
 
-# ===== Custom =====
+
+#############
+## Custom
+#############
 
 # Security
 _init/config.php
 
-
 # Performance and media
 downloads/*
-assets/media/*
+assets/videos/*

@@ -3,13 +3,6 @@
 
 $add_head = '
 	<link rel="stylesheet" type="text/css" href="http://releases.flowplayer.org/5.3.1/skin/playful.css" />
-	<style type="text/css">
-		.flowplayer { width: 80%; }
-		.flowplayer .fp-controls { background-color: rgba(17, 17, 17, 1)}
-		.flowplayer .fp-timeline { background-color: rgba(204, 204, 204, 1)}
-		.flowplayer .fp-progress { background-color: rgba(0, 167, 200, 1)}
-		.flowplayer .fp-buffer { background-color: rgba(249, 249, 249, 1)}
-	</style>
 ';
 $add_footer = '
 	<script src="http://releases.flowplayer.org/5.3.1/flowplayer.min.js"></script>
