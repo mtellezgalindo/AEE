@@ -11,8 +11,6 @@
 	<link rel="author" type="text/plain" href="humans.txt">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-directory'); ?>/libs/normalize_v2.0.1.css">
 	<link rel="stylesheet" type="text/css" href="<?php site_info('css-directory'); ?>/others/all_plugins_styles.css">
-	<link rel="stylesheet" type="text/css" href="http://vjs.zencdn.net/c/video-js.css">
-	<link rel="stylesheet" type="text/css" href="<?php site_info('css-file'); ?>">
 	<!--[if lt IE 10]>
 	<style type="text/css">
 	.libro-titulo {
@@ -21,10 +19,12 @@
 	</style>
 	<![endif]-->
 	<!--[if lt IE 9]><script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/html5.js"></script><![endif]-->
+	<?php altus_head(); ?>
+	<link rel="stylesheet" type="text/css" href="<?php site_info('css-file'); ?>">
 </head>
 <body>
 <!--[if lt IE 9]>
-<p class="chromeframe" style="position:fixed; top 0; left:0;">Usas un navegador <strong>antiguo</strong>. Por favor <a href="http://browsehappy.com/" target="_blank">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorar tu experiencia en este sitio.</p>
+<p class="chromeframe" style="">Usas un navegador antiguo. Por favor <strong><a href="http://browsehappy.com/" target="_blank">actualiza tu navegador</a></strong> o activa <strong><a href="http://www.google.com/chromeframe/?redirect=true">Google Chrome Frame</a></strong> para mejorar tu experiencia en este sitio.</p>
 <![endif]-->
 <div id="black-bar-header"></div>
 <div id="main-container" class="container">

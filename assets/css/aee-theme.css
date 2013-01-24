@@ -466,49 +466,70 @@ img.figure-shadow:hover {
 }
 
 /* Contenedor de videos*/
-
-.video-container {margin: 0 auto; }
-.video-js {	margin: 0 auto; }
-.related-videos {
-	display: block;
-	clear: both;
-	margin: 1em auto;
-	text-align: center;
+#home-player {
+	background:#000;
+	background-size: cover;
 }
-.related-videos .video-link-container {
+.altus-fp-container {
+	position: relative;
+	min-height: 580px;
+	overflow-y:hidden;
+}
+.flowplayer { width: 100%; margin: 0 auto; display: block;}
+.flowplayer .fp-controls { background-color: rgba(0, 0, 0, 1)}
+.flowplayer .fp-timeline { background-color: rgba(204, 204, 204, 1)}
+.flowplayer .fp-progress { background-color: rgba(0, 167, 200, 1)}
+.flowplayer .fp-buffer { background-color: rgba(249, 249, 249, 1)}
+.flowplayer .fp-prev,
+.flowplayer .fp-next {display: none;}
+.flowplayer .fp-prev {}
+.flowplayer .fp-next {}
+.flowplayer .fp-playlist {
+	display: block;
+	position: absolute;
+	top: 102%;
+	width: 100%;
+	text-align: center;
+	cursor: default;
+}
+.playlist-item {
 	display: inline-block;
-	margin: 0 5px 0 0 ;
+	margin: 0 6px;
 	width: 100%;
 	max-width: 150px;
+	vertical-align: top;
 }
-.video-link-container:hover .video-link {
-	border-color: #f14e00;
-}
-.related-videos .video-link {
+.flowplayer .fp-playlist a {
 	display: block;
-	border: 2px solid #ddd;
-	padding: 2px;
-	width: 144px;
-	height: 76px;
+	border: 2px solid #f14e00;
+	margin: 0;
+	width: 146px;
+	height: 78px;
+	background-color: #fff;
+	background-image: url('../img/icon-video-3-128.png');
+	background-origin: content-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 60%;
 	border-radius: 4px;
+	text-align: center;
 }
-
-.video-link .video-snapshot {
+.flowplayer .fp-playlist a img {
+	display: block;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
 }
-.video-link .video-snapshot img {
-	width: 100%;
-	height: auto;
-}
-.video-excerpt-preview {
-	text-align: left;
+.flowplayer .playlist-item-description {
+	display: block;
+	clear: both;
+	margin: 5px 0 0;
 	font-size: .8em;
-	color: #999;
-	text-decoration: none !important;
+	text-align: left;
 }
-
+#home-player #video-0 {	background-image: url('../videos/el-siglo-de-torreon/el-siglo-de-torreon-screenshot.jpg'); background-size: cover; }
+#home-player #video-1 {	background-image: url('../videos/aniv-13-frontera/aniv-13-frontera-screenshot.jpg'); background-size: cover; }
 
 /* Página PERIODICOS */
 .periodico {

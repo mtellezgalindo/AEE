@@ -13,9 +13,9 @@ if ( !empty( $_POST['fname']) ) :
 			case 'ff-cotizador':
 				break;
 			case 'ff-contacto':
-				$contacto_nombre = trim($_POST['ff-contacto-nombre']);
-				$contacto_email = trim($_POST['ff-contacto-email']);
-				$contacto_mensaje = trim($_POST['ff-contacto-comentario']);
+				$contacto_nombre	= trim($_POST['ff-contacto-nombre']);
+				$contacto_email 	= trim($_POST['ff-contacto-email']);
+				$contacto_mensaje 	= trim($_POST['ff-contacto-comentario']);
 				
 				$dinamic_tags = array(
 						'remitente_nombre'	=>	$contacto_nombre,

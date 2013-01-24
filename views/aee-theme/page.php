@@ -20,60 +20,7 @@
 					</hgroup>
 				</header>
 				<section class="section-content">
-					<div class="video-wrapper">
-						<div class="video-container">
-							<video id="homePlayer" class="video-js vjs-default-skin" controls preload="auto" width="610" height="322" poster="assets/media/el-siglo-de-torreon-poster1.jpg" data-setup="{}">
-								<source src="assets/media/el-siglo-de-torreon-video.mp4" type='video/mp4'>
-							</video>
-						</div>
-						<div class="related-videos">
-							<div class="video-link-container">
-								<a id="video1" class="video-link" rel="assets/media/el-siglo-de-torreon-video.mp4" href="#.">
-									<div class="video-snapshot">
-										<img src="assets/img/temporales/video-newspaper-and-bible.jpg" width="800" height="504">
-									</div>
-								</a>
-								<div class="video-excerpt-preview">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua.
-								</div>
-							</div>
-							<div class="video-link-container">
-								<a id="video2" class="video-link" rel="http://video-js.zencoder.com/oceans-clip.mp4" href="#.">
-									<div class="video-snapshot">
-										<img src="assets/img/temporales/video-img_prensa.jpg" width="800" height="504">
-									</div>
-								</a>
-								<div class="video-excerpt-preview">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua.
-								</div>
-							</div>
-							<div class="video-link-container">
-								<a id="video3" class="video-link" rel="http://video-js.zencoder.com/oceans-clip.mp4" href="#.">
-									<div class="video-snapshot">
-										<img src="assets/img/temporales/video-jornada_prensa1.jpg" width="800" height="504">
-									</div>
-								</a>
-								<div class="video-excerpt-preview">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua.
-								</div>
-							</div>
-							<div class="video-link-container">
-								<a id="video4" class="video-link" rel="http://video-js.zencoder.com/oceans-clip.mp4" href="#.">
-									<div class="video-snapshot">
-										<img src="assets/img/temporales/video-prensa.jpg" width="800" height="504">
-									</div>
-								</a>
-								<div class="video-excerpt-preview">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua.
-								</div>
-							</div>
-						</div>
-						<div class="videos-pager"></div>
-					</div>
+					<?php get_widget('videos-playlist'); ?>
 				</section>
 			</article>
 		</section>

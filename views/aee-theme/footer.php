@@ -135,7 +135,6 @@
 <script>window.jQuery || document.write('<script src="<?php site_info("js-directory"); ?>/libs/jquery.min.js"><\/script>')</script>
 <script src="<?php site_info('js-directory'); ?>/plugins/general_plugins.js"></script>
 <script src="<?php site_info('js-file'); ?>"></script>
-<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
 <!--[if lt IE 8]>
 <script type="text/javascript" src="<?php site_info('js-directory'); ?>/libs/cufon-yui.js"></script>
 <script type="text/javascript" src="<?php site_info('fonts-directory'); ?>/Bebas_Neue_400.font.js"></script>
@@ -146,5 +145,6 @@
 	// Cufon.now();
 </script>
 <![endif]-->
+<?php altus_footer(); ?>
 </body>
 </html>
