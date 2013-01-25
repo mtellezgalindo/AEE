@@ -29,8 +29,9 @@ body {
 
 ::-moz-selection,
 ::selection {
-	background: rgba(228, 220, 30, 0.35);
-	color: #e91502;
+	background: transparent;
+	color: #E91502;
+	text-shadow: 0 0 1px #E91502;
 }
 
 
@@ -745,7 +746,11 @@ img.figure-shadow:hover {
 .feature-list li {
 	margin: 0 0 .5em 0;
 }
-
+.feature-list a {
+	text-decoration: none;
+	color: #292929;
+	color: inherit;
+}
 .historia-list-periodicos {
 	display: block;
 	margin: 0 auto;

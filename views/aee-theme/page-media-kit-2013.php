@@ -5,7 +5,7 @@
 				<header>
 					<hgroup>
 						<div class="fancy-header">
-							<h2 class="section-title">Media Kit 2012</h2>
+							<h2 class="section-title">Media Kit 2013</h2>
 						</div>
 						<h3 class="section-subtitle">Lorem Ipsum</h3>
 					</hgroup>

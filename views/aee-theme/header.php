@@ -67,17 +67,17 @@
 						<li class="menu-item"><a href="?p=en-publicidad-movil"  >Publicidad Móvil</a></li>
 					</ul>
 				</li>
-				<li class="menu-item"><a href="?p=media-kit-2012"  >Media Kit 2012</a>
+				<li class="menu-item"><a href="?p=media-kit">Media Kit 2013</a>
 					<ul class="submenu">
-						<li class="menu-item"><a href="?p=media-kit-2012-el-siglo-de-torreon"  >El Siglo de Torreón</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012-diario-de-yucatan"  >Diario de Yucatán</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012-el-imparcial"  >El Imparcial</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012-la-cronica"  >La Crónica</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012-el-siglo-de-durango"  >El Siglo de Durango</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012-la-frontera"  >La Frontera</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012-la-i"  >La I</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012-al-chile"  >Al Chile</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2012-internet"  >Suplementos y revistas</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-el-siglo-de-torreon"  >El Siglo de Torreón</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-diario-de-yucatan"  >Diario de Yucatán</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-el-imparcial"  >El Imparcial</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-la-cronica"  >La Crónica</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-el-siglo-de-durango"  >El Siglo de Durango</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-la-frontera"  >La Frontera</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-la-i"  >La I</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-al-chile"  >Al Chile</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-internet"  >Suplementos y revistas</a></li>
 					</ul>
 				</li>
 				<li class="menu-item"><a href="?p=clientes"  >Clientes</a></li>
