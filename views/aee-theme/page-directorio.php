@@ -20,7 +20,7 @@
 								<td>alberto.jaramillo@aee.com.mx</td>
 							</tr>
 							<tr>
-								<td>Gerente de Imagen Corporativa</td>
+								<td>Gerente de Mercadotecnia</td>
 								<td>Laura Solórzano Martínez</td>
 								<td>lsolmar@aee.com.mx</td>
 							</tr>
@@ -30,43 +30,37 @@
 								<td>miguelangel.morales@aee.com.mx</td>
 							</tr>
 							<tr>
-								<td>Gerente de Administración</td>
-								<td>María Eugenia Morán Rodríguez</td>
-								<td>eugenia.moran@aee.com.mx</td>
+								<td>Gerente Comercial</td>
+								<td>Juan Jesús Gómez Urcino</td>
+								<td>juanjesus.urcino@aee.com.mx</td>
 							</tr>
 						</tbody>
 					</table>
+
 					<p class="lead">Asesores Comerciales:</p>
 					<table id="table-asesores" class="table">
-						<tr>
-							<td>Rodolfo Esparza Martínez</td>
-							<td>rodolfo.esparza@aee.com.mx</td>
-						</tr>
 						<tr>
 							<td>María D. Bernal Yáñez</td>
 							<td>maria.bernal@aee.com.mx</td>
 						</tr>
 						<tr>
-							<td>Karla González Zendejas</td>
-							<td>karla.zendejas@aee.com.mx</td>
-						</tr>
-						<tr>
-							<td>José Madrid Rendón</td>
-							<td>josé.madrid@aee.com.mx</td>
-						</tr>
-						<tr>
-							<td>Juan Jesús Gómez Urcino</td>
-							<td>juanjesus.urcino@aee.com.mx</td>
+							<td>Rodolfo Esparza Martínez</td>
+							<td>rodolfo.esparza@aee.com.mx</td>
 						</tr>
 						<tr>
 							<td>Ernesto Quijada Cardoso</td>
 							<td>Ernesto.quijada@aee.com.mx</td>
 						</tr>
 						<tr>
-							<td>Jorge Linares González</td>
-							<td>jorge.linares@aee.com.mx</td>
+							<td>Margarita Martínez </td>
+							<td>margarita.martinez@aee.com.mx</td>
+						</tr>
+						<tr>
+							<td>Carlos Sánchez</td>
+							<td>carlos.sanchez@aee.com.mx</td>
 						</tr>
 					</table>
+
 				</div>
 			</article>
 		</section>

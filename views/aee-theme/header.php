@@ -54,30 +54,34 @@
 				</li>
 				<li class="menu-item"><a href="?p=periodicos"  >Periódicos</a>
 					<ul class="submenu">
-						<li class="menu-item"><a href="?p=periodico-el-siglo-de-torreon"  >El Siglo de Torreón</a></li>
-						<li class="menu-item"><a href="?p=periodico-diario-de-yucatan"  >Diario de Yucatán</a></li>
-						<li class="menu-item"><a href="?p=periodico-el-imparcial"  >El Imparcial</a></li>
-						<li class="menu-item"><a href="?p=periodico-la-cronica"  >La Crónica</a></li>
-						<li class="menu-item"><a href="?p=periodico-el-siglo-de-durango"  >El Siglo de Durango</a></li>
-						<li class="menu-item"><a href="?p=periodico-la-frontera"  >La Frontera</a></li>
-						<li class="menu-item"><a href="?p=periodico-la-i"  >La I</a></li>
-						<li class="menu-item"><a href="?p=periodico-al-chile"  >Al Chile</a></li>
-						<li class="menu-item"><a href="?p=en-internet"  >Internet</a></li>
-						<li class="menu-item"><a href="?p=en-vallas"  >Vallas</a></li>
-						<li class="menu-item"><a href="?p=en-publicidad-movil"  >Publicidad Móvil</a></li>
+						<li class="menu-item"><a href="?p=periodico-el-siglo-de-torreon">El Siglo de Torreón</a></li>
+						<li class="menu-item"><a href="?p=periodico-diario-de-yucatan">Diario de Yucatán</a></li>
+						<li class="menu-item"><a href="?p=periodico-el-imparcial">El Imparcial</a></li>
+						<li class="menu-item"><a href="?p=periodico-la-cronica">La Crónica</a></li>
+						<li class="menu-item"><a href="?p=periodico-el-siglo-de-durango">El Siglo de Durango</a></li>
+						<li class="menu-item"><a href="?p=periodico-la-frontera">La Frontera</a></li>
+						<li class="menu-item"><a href="?p=periodico-la-i">La I</a></li>
+						<li class="menu-item"><a href="?p=periodico-la-frontera-san-diego">La Frontera San diego</a></li>
+						<li class="menu-item"><a href="?p=periodico-al-chile">Al Chile</a></li>
+						<li class="menu-item"><a href="?p=periodico-la-frontera-ensenada">La Frontera Ensenada</a></li>
+						<li class="menu-item"><a href="?p=en-internet">Internet</a></li>
+						<li class="menu-item"><a href="?p=en-vallas">Vallas</a></li>
+						<li class="menu-item"><a href="?p=en-publicidad-movil">Publicidad Móvil</a></li>
 					</ul>
 				</li>
 				<li class="menu-item"><a href="?p=media-kit">Media Kit 2013</a>
 					<ul class="submenu">
-						<li class="menu-item"><a href="?p=media-kit-2013-el-siglo-de-torreon"  >El Siglo de Torreón</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2013-diario-de-yucatan"  >Diario de Yucatán</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2013-el-imparcial"  >El Imparcial</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2013-la-cronica"  >La Crónica</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2013-el-siglo-de-durango"  >El Siglo de Durango</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2013-la-frontera"  >La Frontera</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2013-la-i"  >La I</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2013-al-chile"  >Al Chile</a></li>
-						<li class="menu-item"><a href="?p=media-kit-2013-internet"  >Suplementos y revistas</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-el-siglo-de-torreon">El Siglo de Torreón</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-diario-de-yucatan">Diario de Yucatán</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-el-imparcial">El Imparcial</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-la-cronica">La Crónica</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-el-siglo-de-durango">El Siglo de Durango</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-la-frontera">La Frontera</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-la-i">La I</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-la-frontera-san-diego">La Frontera San Diego</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-al-chile">Al Chile</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-la-frontera-ensenada">La Frontera Ensenada</a></li>
+						<li class="menu-item"><a href="?p=media-kit-2013-internet">Suplementos y revistas</a></li>
 					</ul>
 				</li>
 				<li class="menu-item"><a href="?p=clientes"  >Clientes</a></li>
