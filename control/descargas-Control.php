@@ -4,10 +4,10 @@ if ( !defined('KEY') ) die('<h1>Acceso denegado</h1>');
 
 $descargar = 'no hay libro';
 if ( check_get('item') ) {
-	$descargar = check_get('item') . ".pdf";
+	$descargar = check_get('item');
 	$descargar = urldecode($descargar);
 	$descargar = str_replace(' ', '_', $descargar);
-	download_file("downloads/".$descargar);
+	if ( file_exists("downloads/".$descargar) ) download_file("downloads/".$descargar);
 }
 
 ob_start();

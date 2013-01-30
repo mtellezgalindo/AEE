@@ -35,7 +35,7 @@
 					</div>
 					<div class="figure">
 						<img class="aCenter figure-shadow" src="assets/img/media/2013/2013-01/en-internet-portada.jpg" width="330" height="427" alt="portada">
-						<p class="aCenter"><a class="btn-descargar-pdf" href="">Descargar</a></p>
+						<p class="aCenter"><a class="btn-descargar-pdf" href="?p=descargas&item=11_Internet.pdf">Descargar</a></p>
 					</div>
 				</section>
 			</article>

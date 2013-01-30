@@ -25,7 +25,7 @@
 					</div>
 					<div class="figure">
 						<img class="aCenter figure-shadow" src="assets/img/media/2013/2013-01/periodico-la-i-portada.jpg" width="330" height="427" alt="portada">
-						<p class="aCenter"><a class="btn-descargar-pdf" href="">Descargar</a></p>
+						<p class="aCenter"><a class="btn-descargar-pdf" href="?p=descargas&item=7_La_i.pdf">Descargar</a></p>
 					</div>
 				</section>
 			</article>

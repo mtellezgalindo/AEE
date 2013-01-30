@@ -24,7 +24,7 @@
 					</div>
 					<div class="figure">
 						<img class="aCenter figure-shadow" src="assets/img/media/2013/2013-01/periodico-al-chile-portada.jpg" width="330" height="427" alt="portada">
-						<p class="aCenter"><a class="btn-descargar-pdf" href="">Descargar</a></p>
+						<p class="aCenter"><a class="btn-descargar-pdf" href="?p=descargas&item=9_Al_Chile.pdf">Descargar</a></p>
 					</div>
 				</section>
 			</article>

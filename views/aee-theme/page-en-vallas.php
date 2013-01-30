@@ -35,7 +35,7 @@
 					</div>
 					<div class="figure">
 						<img class="aCenter figure-shadow" src="assets/img/media/2013/2013-01/en-vallas-portada.jpg" width="330" height="427" alt="portada">
-						<p class="aCenter"><a class="btn-descargar-pdf" href="">Descargar</a></p>
+						<p class="aCenter"><a class="btn-descargar-pdf" href="?p=descargas&item=12_Vallas.pdf">Descargar</a></p>
 					</div>
 				</section>
 			</article>
